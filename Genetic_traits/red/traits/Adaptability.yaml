@@ -1,0 +1,67 @@
+trait: Adaptability
+description: >
+  Adaptability is the ability of an organism to adjust to changes in its environment,
+  enabling it to survive and thrive in different conditions.
+  Scales influence adaptability from 0 (no influence) to 100 (maximum influence).
+
+factors:
+  - name: Phenotypic Plasticity
+    description: >
+      The capacity of an organism to alter its physical or physiological traits
+      in response to environmental conditions without requiring genetic change.
+      High values indicate strong responsiveness to environmental variation.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Little or no phenotypic adjustment to environmental changes."
+        medium: "Moderate ability to modify traits under varying conditions."
+        high: "Strong capacity for flexible trait expression across environments."
+
+  - name: Genetic Flexibility
+    description: >
+      The extent of genetic variation and genomic mechanisms that support adaptive
+      potential, including mutation, recombination, gene duplication, and regulatory evolution.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited genetic diversity and adaptive potential."
+        medium: "Moderate genetic variability supporting some adaptation."
+        high: "Extensive genetic variation enabling rapid evolutionary responses."
+
+  - name: Behavioral Plasticity
+    description: >
+      The ability to modify behavior in response to environmental or social changes,
+      improving survival and reproductive success under novel conditions.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rigid or fixed behavioral responses."
+        medium: "Some flexibility in behavior under changing conditions."
+        high: "Highly dynamic and context-sensitive behavioral adaptation."
+
+  - name: Epigenetic Regulation
+    description: >
+      The influence of reversible gene-expression modifications, such as DNA methylation
+      and histone changes, that allow organisms to respond adaptively to environmental stimuli.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal environmentally induced gene-expression regulation."
+        medium: "Moderate epigenetic responsiveness."
+        high: "Extensive environmentally responsive epigenetic modulation."
+
+  - name: Learning and Memory
+    description: >
+      The ability to acquire, retain, and apply information from past experiences
+      in order to improve future responses to environmental challenges.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited capacity for experience-based adaptation."
+        medium: "Moderate learning and retention abilities."
+        high: "Strong capacity for complex learning, memory, and adaptive decision-making."

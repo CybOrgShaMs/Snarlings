@@ -1,0 +1,68 @@
+trait: Recombination
+
+description: >
+  Recombination is the biological process by which genetic material is
+  rearranged during reproduction, producing new allele combinations.
+  It is a key driver of genetic diversity and evolutionary innovation
+  in sexually reproducing organisms.
+
+factors:
+  - name: Crossing Over
+    description: >
+      The exchange of genetic material between homologous chromosomes during
+      meiosis, generating novel combinations of alleles in gametes.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rare or limited crossover events, reducing genetic reshuffling."
+        medium: "Moderate crossover frequency producing some variation."
+        high: "Frequent crossing over generating high genetic recombination."
+
+  - name: Genetic Diversity
+    description: >
+      The level of existing variation within a population that provides
+      substrate for recombination to generate new allele combinations.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Low variation limiting recombination outcomes."
+        medium: "Moderate diversity supporting some novel combinations."
+        high: "High diversity enabling extensive recombinational variation."
+
+  - name: Recombination Hotspots
+    description: >
+      Specific genomic regions where recombination occurs at elevated rates,
+      influenced by sequence motifs, chromatin structure, and epigenetic marks.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Few or inactive recombination hotspots."
+        medium: "Moderate hotspot activity distributed across genome."
+        high: "Strong hotspot activity driving frequent recombination events."
+
+  - name: Crossover Interference
+    description: >
+      The regulatory phenomenon where one crossover event reduces the probability
+      of nearby crossovers, shaping recombination spacing along chromosomes.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak interference allowing clustered crossover events."
+        medium: "Moderate interference producing balanced distribution."
+        high: "Strong interference enforcing widely spaced recombination events."
+
+  - name: Environmental Factors
+    description: >
+      External conditions such as temperature, humidity, and radiation that can
+      influence recombination rates by affecting DNA stability and meiotic processes.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Stable environments with minimal recombination influence."
+        medium: "Moderate environmental modulation of recombination."
+        high: "Strong environmental impact significantly altering recombination rates."

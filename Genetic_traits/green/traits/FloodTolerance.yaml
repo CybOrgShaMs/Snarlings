@@ -1,0 +1,60 @@
+trait: Flood Tolerance
+description: >
+  Flood tolerance refers to an organism's ability to survive and function in environments with excessive water or prolonged periods of inundation. This trait is important for species living in flood-prone areas.
+
+factors:
+  - name: Aerenchyma Formation
+    description: >
+      The development of specialized tissues that allow for oxygen transport in waterlogged conditions supports flood tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Anaerobic Metabolism
+    description: >
+      The ability to generate energy in low-oxygen environments through anaerobic metabolic pathways enhances flood tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Root Adaptations
+    description: >
+      Traits such as shallow root systems or adventitious roots that absorb oxygen directly from the water help organisms survive flooding.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Leaf Adaptations
+    description: >
+      Traits such as flexible leaves that can remain functional underwater or float on the surface enhance flood tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Behavioral Adaptations
+    description: >
+      Behaviors such as moving to higher ground or altering feeding habits during floods support survival in inundated environments.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Physiological Adjustments
+    description: >
+      The ability to adjust physiological processes, such as reducing growth rates or altering nutrient uptake, helps organisms cope with flooding.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Symbiotic Relationships
+    description: >
+      Beneficial relationships with other organisms, such as plants with nitrogen-fixing bacteria that thrive in waterlogged soils, enhance flood tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Genetic Adaptation
+    description: >
+      Genetic traits that confer advantages in flooded conditions, such as resistance to hypoxia or enhanced buoyancy, support flood tolerance.
+    scale:
+      min: 0
+      max: 100

@@ -1,0 +1,92 @@
+trait: Photosynthetic efficiency
+description: >
+  The rate at which photoautotrophic organisms convert light energy into chemical energy (carbohydrates) with minimal loss.
+
+factors:
+  - name: Chlorophyll Pigment Concentration
+    description: >
+      Amount of light-absorbing molecules in chloroplasts capturing photons for electron excitation.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Sparse pigments limiting photon capture and energy input."
+        medium: "Standard concentration supporting baseline light harvesting."
+        high: "Dense pigment arrays maximizing solar energy absorption."
+
+  - name: Light Absorption Spectrum Matching
+    description: >
+     Alignment of pigment peaks with available environmental light wavelengths.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor spectral match causing significant photon waste."
+        medium: "Moderate alignment supporting adequate energy capture."
+        high: "Precise matching ensuring maximum usable light conversion."
+
+  - name: Rubisco Enzyme Specificity
+    description: >
+     Efficiency of the primary carbon-fixing enzyme in binding CO2 versus O2.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "High oxygenase activity causing photorespiration and energy loss."
+        medium: "Moderate specificity balancing fixation with occasional waste."
+        high: "High carboxylase preference minimizing futile cycles and boosting yield."
+
+  - name: Stomatal Conductance Rate
+    description: >
+     Opening degree of leaf pores regulating CO2 intake and water vapor loss.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Restricted pores limiting carbon availability for fixation."
+        medium: "Standard conductance supporting balanced gas exchange."
+        high: "Optimal aperture maximizing CO2 diffusion while conserving water."
+
+  - name: Carbon Fixation Pathway Type (C3/C4/CAM)
+    description: >
+     Biochemical strategy for concentrating CO2 and minimizing photorespiration under stress.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Basic C3 pathway prone to efficiency drops in heat/drought."
+        medium: "Moderate adaptation supporting standard environmental conditions."
+        high: "Advanced C4/CAM mechanisms concentrating CO2 for peak fixation rates."
+
+  - name: Photoprotective Dissipation Capacity
+    description: >
+     Ability to safely release excess light energy as heat to prevent chloroplast damage.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor dissipation causing photoinhibition and pigment degradation."
+        medium: "Standard protection maintaining function under variable light."
+        high: "Rapid heat dumping preserving photosynthetic machinery during peaks."
+
+  - name: Electron Transport Chain Turnover
+    description: >
+     Speed of moving excited electrons through thylakoid membranes to generate NADPH and ATP.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow transfer creating bottlenecks in energy conversion."
+        medium: "Moderate flow supporting steady carbohydrate synthesis."
+        high: "Rapid cycling enabling high-output light-to-chemical energy transformation."
+
+  - name: Nutrient Co-Factor Availability (N, P, Mg)
+    description: >
+     Supply of essential minerals required for chlorophyll structure and enzyme function.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Deficient nutrients limiting pigment synthesis and catalytic activity."
+        medium: "Adequate supply supporting standard photosynthetic operations."
+        high: "Optimal mineral levels maximizing enzymatic efficiency and structural integrity."

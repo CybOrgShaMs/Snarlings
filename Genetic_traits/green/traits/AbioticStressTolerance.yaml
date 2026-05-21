@@ -1,0 +1,60 @@
+trait: Abiotic Stress Tolerance
+description: >
+  Abiotic stress tolerance refers to an organism's ability to withstand and adapt to non-living environmental stressors such as extreme temperatures, drought, salinity, and pollution.
+
+factors:
+  - name: Osmotic Regulation
+    description: >
+      Mechanisms that maintain cellular water balance and ion concentration under stress conditions enhance abiotic stress tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Antioxidant Production
+    description: >
+      The ability to produce antioxidants that protect against oxidative damage from abiotic stressors supports tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Structural Adaptations
+    description: >
+      Physical traits such as thick cuticles, waxy coatings, or protective shells enhance tolerance to abiotic stress.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Stress-Responsive Genes
+    description: >
+      The expression of genes that respond to abiotic stress, such as heat-shock or drought-responsive genes, enhances tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Detoxification Mechanisms
+    description: >
+      Enzymatic systems that detoxify harmful substances such as heavy metals or pollutants support abiotic stress tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Water Use Efficiency
+    description: >
+      Efficient use and conservation of water under stress conditions such as drought enhance abiotic stress tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Ion Homeostasis
+    description: >
+      The ability to maintain stable ion levels in cells under stress conditions such as salinity supports abiotic stress tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Energy Allocation
+    description: >
+      Strategic allocation of energy to essential functions during stress conditions enhances abiotic stress tolerance.
+    scale:
+      min: 0
+      max: 100

@@ -1,0 +1,103 @@
+trait: Analytical Thinking
+
+description: >
+  Analytical thinking is the ability to systematically process complex information,
+  identify patterns, evaluate evidence, and construct logical conclusions.
+  It underpins critical reasoning, structured problem-solving, and informed decision-making.
+
+factors:
+  - name: Problem-solving Skills
+    description: >
+      The capacity to identify problems, evaluate possible solutions, and implement
+      effective strategies in a structured and logical manner.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Difficulty identifying or resolving structured problems."
+        medium: "Moderate problem-solving with some logical structure."
+        high: "Strong, efficient, and systematic problem resolution."
+
+  - name: Attention to Detail
+    description: >
+      The ability to notice fine-grained information and ensure completeness and
+      accuracy when evaluating data or complex systems.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Frequent oversight of key details."
+        medium: "Generally accurate with occasional missed details."
+        high: "Highly precise and detail-oriented processing."
+
+  - name: Logical Reasoning
+    description: >
+      The ability to apply structured reasoning rules to evaluate arguments,
+      infer conclusions, and ensure internal consistency of thought.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak or inconsistent logical structure."
+        medium: "Moderate reasoning with occasional gaps."
+        high: "Strong, consistent, and rigorous logical reasoning."
+
+  - name: Cognitive Flexibility
+    description: >
+      The ability to shift between different perspectives, frameworks, or
+      strategies when analyzing information or solving problems.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rigid thinking with limited adaptability in reasoning."
+        medium: "Moderate flexibility in analytical approaches."
+        high: "Highly adaptable and multi-perspective reasoning."
+
+  - name: Data Interpretation
+    description: >
+      The ability to extract meaning from structured and unstructured data,
+      identifying trends, relationships, and implications.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Difficulty interpreting or extracting meaning from data."
+        medium: "Basic interpretation with moderate insight generation."
+        high: "Strong ability to derive deep insights from complex data."
+
+  - name: Critical Thinking
+    description: >
+      The ability to evaluate claims, detect bias, and assess the validity
+      of arguments using objective and systematic reasoning.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited evaluation of assumptions or logical validity."
+        medium: "Moderate skepticism and evaluative ability."
+        high: "Strong, rigorous, and unbiased evaluation of information."
+
+  - name: Experience and Expertise
+    description: >
+      Domain knowledge and accumulated experience that enhance pattern recognition,
+      heuristic reasoning, and decision accuracy in specialized contexts.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited experience and domain familiarity."
+        medium: "Moderate expertise supporting practical analysis."
+        high: "Deep expertise enabling advanced analytical insight."
+
+  - name: Genetic Factors
+    description: >
+      Inherited neurocognitive traits influencing processing efficiency,
+      working memory capacity, and baseline reasoning ability.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited inherited contribution to analytical processing."
+        medium: "Moderate genetic influence on cognition."
+        high: "Strong innate contribution to analytical capacity."

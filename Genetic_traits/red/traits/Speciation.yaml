@@ -1,0 +1,68 @@
+trait: Speciation
+
+description: >
+  Speciation is the evolutionary process by which new species arise from
+  ancestral populations through the development of reproductive isolation.
+  It is driven by genetic, ecological, behavioral, and chromosomal mechanisms
+  that reduce or eliminate gene flow between diverging populations.
+
+factors:
+  - name: Geographic Isolation
+    description: >
+      Physical separation of populations by barriers such as mountains, rivers,
+      oceans, or habitat fragmentation, reducing or eliminating gene flow.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Continuous habitats with unrestricted movement between populations."
+        medium: "Partial barriers allowing limited gene flow."
+        high: "Strong geographic separation preventing gene exchange."
+
+  - name: Ecological Divergence
+    description: >
+      The process by which populations adapt to different ecological niches,
+      leading to divergent selection and reduced compatibility over time.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Similar ecological niches with shared selective pressures."
+        medium: "Moderate niche differentiation producing some divergence."
+        high: "Strong ecological specialization driving rapid divergence."
+
+  - name: Behavioral Isolation
+    description: >
+      Reproductive isolation caused by differences in mating behaviors,
+      signals, or preferences that prevent successful interbreeding.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Shared mating behaviors allowing frequent interbreeding."
+        medium: "Partial behavioral differences reducing mating success."
+        high: "Strong behavioral divergence preventing interbreeding."
+
+  - name: Temporal Isolation
+    description: >
+      Reproductive isolation resulting from differences in breeding times,
+      seasons, or daily activity patterns that reduce mating opportunities.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Synchronous breeding periods enabling regular interbreeding."
+        medium: "Partially overlapping breeding times."
+        high: "Strong temporal separation preventing mating encounters."
+
+  - name: Polyploidy
+    description: >
+      The presence of additional chromosome sets that can create instant
+      reproductive isolation, especially common in plants and some organisms.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rare or absent chromosomal duplication events."
+        medium: "Occasional polyploid individuals with limited establishment."
+        high: "Frequent polyploidy strongly contributing to speciation."

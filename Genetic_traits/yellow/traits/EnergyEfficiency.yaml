@@ -1,0 +1,93 @@
+trait: Energy efficiency
+description: >
+  The ratio of useful biological work or physiological output produced relative to total energy input consumed,
+  minimizing waste heat and metabolic overhead.
+
+factors:
+  - name: Mitochondrial Coupling Efficiency
+    description: >
+      How effectively the proton gradient across the inner mitochondrial membrane drives ATP synthase without leakage.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Significant proton leak resulting in high heat production and wasted input."
+        medium: "Moderate coupling with acceptable energy conversion ratios."
+        high: "Tight coupling maximizing ATP yield per substrate molecule oxidized."
+
+  - name: Muscle Fiber Composition
+    description: >
+      Proportion of slow-twitch (Type I) versus fast-twitch (Type II) fibers, affecting mechanical work output per calorie.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Predominantly fast-twitch fibers optimized for power over economy."
+        medium: "Balanced fiber distribution supporting mixed performance demands."
+        high: "High slow-twitch density enabling sustained work with minimal caloric cost."
+
+  - name: Substrate Utilization Preference
+    description: >
+      Tendency to oxidize fats versus carbohydrates, influencing ATP yield per gram and metabolic byproduct accumulation.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Heavy reliance on glycogen with rapid depletion and lactate buildup."
+        medium: "Flexible switching between fuel sources based on intensity and availability."
+        high: "Strong preference for fat oxidation providing sustained, efficient energy release."
+
+  - name: Structural Biomechanics
+    description: >
+      Skeletal alignment, tendon elasticity, and joint leverage that reduce muscular effort during movement.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Inefficient mechanics requiring excessive muscle recruitment for basic tasks."
+        medium: "Functional biomechanics with moderate energy expenditure during motion."
+        high: "Optimized leverage and elastic storage minimizing metabolic cost of movement."
+
+  - name: Cellular Signaling Overhead
+    description: >
+      Energy consumed by ion pumps, second messengers, and regulatory cascades not directly tied to work output.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Streamlined signaling pathways reducing non-productive ATP consumption."
+        medium: "Standard regulatory activity with acceptable metabolic overhead."
+        high: "Hyperactive signaling networks draining energy for rapid but wasteful responses."
+
+  - name: Waste Heat Dissipation
+    description: >
+      Ability to redirect or utilize excess thermal energy rather than losing it to the environment.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor heat management leading to significant thermal energy loss."
+        medium: "Moderate dissipation with some capacity for thermal recycling."
+        high: "Advanced thermoregulatory coupling retaining usable heat for metabolic processes."
+
+  - name: Adaptive Thermogenesis
+    description: >
+      Controlled uncoupling of respiration to generate heat or regulate energy balance without mechanical work.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal thermogenic flexibility favoring direct ATP production."
+        medium: "Balanced capacity to adjust heat output based on environmental needs."
+        high: "High thermogenic plasticity optimizing energy distribution under stress."
+
+  - name: Metabolic Redundancy & Backup Pathways
+    description: >
+      Presence of alternative routes for energy generation that prevent bottlenecks and maintain efficiency during strain.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Single-pathway dependence causing sharp efficiency drops under stress."
+        medium: "Moderate backup routes maintaining function with slight overhead."
+        high: "Extensive redundant networks ensuring stable output across varying conditions."

@@ -1,0 +1,194 @@
+genetic_traits:
+
+  red:
+    description: >
+      The red genome represents traits associated with mutation, evolution,
+      genetic variability, and adaptive evolutionary dynamics. These traits
+      influence how organisms generate variation, respond to selection pressures,
+      and evolve across generations.
+
+    domains:
+      - Evolutionary Dynamics
+      - Population Genetics
+      - Adaptive Capacity
+      - Genetic Mechanisms
+      - Selection Processes
+      - Macroevolution
+
+    traits:
+      - name: Mutation Rate
+        file: MutationRate.yaml
+      - name: Genetic Diversity
+        file: GeneticDiversity.yaml
+      - name: Adaptability
+        file: Adaptability.yaml
+      - name: Evolutionary Potential
+        file: EvolutionaryPotential.yaml
+      - name: Recombination Rate
+        file: RecombinationRate.yaml
+      - name: Natural Selection
+        file: NaturalSelection.yaml
+      - name: Speciation
+        file: Speciation.yaml
+      - name: Hybridization
+        file: Hybridization.yaml
+      - name: Phenotypic Plasticity
+        file: PhenotypicPlasticity.yaml
+      - name: Recombination
+        file: Recombination.yaml
+      - name: Mutation Pressure
+        file: MutationPressure.yaml
+      - name: Gene Flow
+        file: GeneFlow.yaml
+      - name: Genetic Drift
+        file: GeneticDrift.yaml
+      - name: Selective Advantage
+        file: SelectiveAdvantage.yaml
+      - name: Mutational Robustness
+        file: MutationalRobustness.yaml
+      - name: Evolutionary Rescue
+        file: EvolutionaryRescue.yaml
+
+  blue:
+    description: >
+      The blue genome represents cognitive, intellectual, and behavioral
+      processing traits. These characteristics influence learning capacity,
+      reasoning, creativity, memory, and adaptive decision-making.
+
+    domains:
+      - Intelligence
+      - Learning Systems
+      - Cognitive Flexibility
+      - Analytical Processing
+      - Decision Sciences
+      - Behavioral Adaptation
+
+    traits:
+      - name: Intelligence
+        file: Intelligence.yaml
+      - name: Problem-solving skills
+        file: ProblemSolvingSkills.yaml
+      - name: Memory retention
+        file: MemoryRetention.yaml
+      - name: Learning ability
+        file: LearningAbility.yaml
+      - name: Logical reasoning
+        file: LogicalReasoning.yaml
+      - name: Analytical thinking
+        file: AnalyticalThinking.yaml
+      - name: Creativity
+        file: Creativity.yaml
+      - name: Spatial awareness
+        file: SpatialAwareness.yaml
+      - name: Linguistic skills
+        file: LinguisticSkills.yaml
+      - name: Numerical aptitude
+        file: NumericalAptitude.yaml
+      - name: Attention span
+        file: AttentionSpan.yaml
+      - name: Decision-making skills
+        file: DecisionMakingSkills.yaml
+      - name: Flexibility of thought
+        file: FlexibilityOfThought.yaml
+      - name: Mental agility
+        file: MentalAgility.yaml
+      - name: Adaptability to new situations
+        file: AdaptabilityToNewSituations.yaml
+      - name: Cognitive resilience
+        file: CognitiveResilience.yaml
+
+  green:
+    description: >
+      The green genome represents environmental adaptation, ecological resilience,
+      and interactions between organisms and their habitats. These traits determine
+      survival capacity under environmental stress and ecological complexity.
+
+    domains:
+      - Environmental Adaptation
+      - Ecological Resilience
+      - Climate Response
+      - Habitat Utilization
+      - Stress Tolerance
+      - Ecological Interaction
+
+    traits:
+      - name: Environmental resilience
+        file: EnvironmentalResilience.yaml
+      - name: Adaptation to climate change
+        file: AdaptationToClimateChange.yaml
+      - name: Ecological niche specialization
+        file: EcologicalNicheSpecialization.yaml
+      - name: Habitat diversity utilization
+        file: HabitatDiversityUtilization.yaml
+      - name: Drought tolerance
+        file: DroughtTolerance.yaml
+      - name: Flood tolerance
+        file: FloodTolerance.yaml
+      - name: Temperature tolerance
+        file: TemperatureTolerance.yaml
+      - name: Soil adaptation
+        file: SoilAdaptation.yaml
+      - name: Biotic interaction resilience
+        file: BioticInteractionResilience.yaml
+      - name: Abiotic stress tolerance
+        file: AbioticStressTolerance.yaml
+      - name: Disease resistance
+        file: DiseaseResistance.yaml
+      - name: Seasonal adaptation
+        file: SeasonalAdaptation.yaml
+      - name: Migration patterns
+        file: MigrationPatterns.yaml
+      - name: Reproductive strategy flexibility
+        file: ReproductiveStrategyFlexibility.yaml
+      - name: Competitive ability
+        file: CompetitiveAbility.yaml
+      - name: Symbiotic relationships
+        file: SymbioticRelationships.yaml
+
+  yellow:
+    description: >
+      The yellow genome represents metabolic efficiency, physiological performance,
+      and energy management systems. These traits regulate how organisms acquire,
+      transform, store, and utilize energy.
+
+    domains:
+      - Metabolism
+      - Energy Systems
+      - Cellular Physiology
+      - Stress Physiology
+      - Bioenergetics
+      - Performance Efficiency
+
+    traits:
+      - name: Metabolic rate
+        file: MetabolicRate.yaml
+      - name: Energy efficiency
+        file: EnergyEfficiency.yaml
+      - name: Nutrient utilization efficiency
+        file: NutrientUtilizationEfficiency.yaml
+      - name: ATP production capacity
+        file: ATPProductionCapacity.yaml
+      - name: Cellular respiration efficiency
+        file: CellularRespirationEfficiency.yaml
+      - name: Energy storage capacity
+        file: EnergyStorageCapacity.yaml
+      - name: Oxidative stress resistance
+        file: OxidativeStressResistance.yaml
+      - name: Mitochondrial efficiency
+        file: MitochondrialEfficiency.yaml
+      - name: Thermoregulation efficiency
+        file: ThermoregulationEfficiency.yaml
+      - name: Endurance
+        file: Endurance.yaml
+      - name: Anaerobic capacity
+        file: AnaerobicCapacity.yaml
+      - name: Digestive efficiency
+        file: DigestiveEfficiency.yaml
+      - name: Photosynthetic efficiency
+        file: PhotosyntheticEfficiency.yaml
+      - name: Absorption efficiency
+        file: AbsorptionEfficiency.yaml
+      - name: Waste management efficiency
+        file: WasteManagementEfficiency.yaml
+      - name: Sleep efficiency
+        file: SleepEfficiency.yaml

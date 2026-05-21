@@ -1,0 +1,60 @@
+trait: Drought Tolerance
+description: >
+  Drought tolerance refers to an organism's ability to survive and thrive in conditions of limited water availability. This trait is critical for organisms living in arid and semi-arid environments.
+
+factors:
+  - name: Water Conservation Mechanisms
+    description: >
+      Physiological adaptations that reduce water loss, such as efficient kidney function or reduced transpiration, enhance drought tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Deep Root Systems
+    description: >
+      Extensive root systems that access deep water sources support survival during drought conditions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Dormancy Strategies
+    description: >
+      The ability to enter a state of dormancy during extreme drought periods helps organisms conserve energy and water.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Efficient Water Use
+    description: >
+      Mechanisms that maximize the use of available water, such as high water use efficiency in photosynthesis, support drought tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Leaf Adaptations
+    description: >
+      Traits such as reduced leaf size, waxy coatings, or shedding leaves during drought help reduce water loss.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Behavioral Adaptations
+    description: >
+      Behaviors that minimize water loss or seek out water sources, such as nocturnal activity or migration, enhance drought tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Osmoregulation
+    description: >
+      The ability to regulate internal water and solute balance during periods of water scarcity supports drought tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Symbiotic Relationships
+    description: >
+      Relationships with other organisms, such as mycorrhizal fungi that enhance water absorption, improve drought tolerance.
+    scale:
+      min: 0
+      max: 100

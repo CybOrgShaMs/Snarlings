@@ -1,0 +1,68 @@
+trait: Natural Selection
+
+description: >
+  Natural selection is the process by which heritable traits that improve
+  survival and reproduction become more common in a population over successive
+  generations. It is a central mechanism of evolution, shaping adaptation and
+  population change in response to environmental and biological pressures.
+
+factors:
+  - name: Fitness Advantage
+    description: >
+      The degree to which a heritable trait increases an organism's survival,
+      reproductive success, or overall contribution to the next generation.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Traits provide little or no reproductive or survival benefit."
+        medium: "Traits provide moderate advantage under specific conditions."
+        high: "Traits strongly increase fitness and are rapidly favored."
+
+  - name: Environmental Pressures
+    description: >
+      External selective forces such as predation, resource limitation,
+      disease, and competition that shape which traits are favored.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak or stable environments with minimal selection pressure."
+        medium: "Moderate environmental challenges influencing selection."
+        high: "Strong, dynamic pressures driving rapid evolutionary change."
+
+  - name: Frequency-dependent Selection
+    description: >
+      A form of selection where the fitness of a trait depends on how common
+      or rare it is within the population, often maintaining diversity.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Little or no frequency-dependent effects."
+        medium: "Moderate influence on trait fitness based on prevalence."
+        high: "Strong frequency dependence maintaining or reshaping diversity."
+
+  - name: Sexual Selection
+    description: >
+      Selection driven by mate choice and competition for reproductive access,
+      often favoring traits that improve mating success even at survival cost.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak mating-based selection pressures."
+        medium: "Moderate influence of mate choice or competition."
+        high: "Strong sexual selection shaping pronounced reproductive traits."
+
+  - name: Directional Selection
+    description: >
+      Selection that consistently favors one extreme of a trait distribution,
+      causing gradual shifts in population characteristics over time.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Stable or balancing selection with no consistent direction."
+        medium: "Occasional directional shifts in trait distributions."
+        high: "Strong consistent pressure driving rapid phenotypic change."

@@ -1,0 +1,60 @@
+trait: Seasonal Adaptation
+description: >
+  Seasonal adaptation refers to an organism's ability to adjust to the changing conditions of different seasons, ensuring survival and reproduction throughout the year.
+
+factors:
+  - name: Migration Patterns
+    description: >
+      The ability to migrate to favorable environments during adverse seasons supports seasonal adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Hibernation
+    description: >
+      Entering a state of dormancy during unfavorable seasons conserves energy and enhances survival.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Phenological Shifts
+    description: >
+      Adjusting life cycle events such as breeding, flowering, or molting to match seasonal changes supports adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Physiological Changes
+    description: >
+      Seasonal changes in physiology, such as altering metabolic rates or fat storage, enhance seasonal adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Behavioral Adjustments
+    description: >
+      Behaviors such as changing foraging habits or building shelters to cope with seasonal variations enhance adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Coat or Plumage Changes
+    description: >
+      Seasonal changes in fur, feathers, or skin that provide insulation or camouflage support adaptation to seasonal environments.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Reproductive Timing
+    description: >
+      Timing reproduction to coincide with optimal environmental conditions for offspring survival enhances seasonal adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Resource Storage
+    description: >
+      Storing food or other resources during abundant seasons to use during scarce periods supports seasonal adaptation.
+    scale:
+      min: 0
+      max: 100

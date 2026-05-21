@@ -1,0 +1,68 @@
+trait: Evolutionary Potential
+
+description: >
+  Evolutionary potential is the capacity of an organism or population to
+  generate heritable variation and undergo adaptive evolutionary change over
+  time. High evolutionary potential increases the likelihood of developing new
+  traits, surviving environmental shifts, and diversifying across generations.
+
+factors:
+  - name: Standing Genetic Variation
+    description: >
+      The amount of existing genetic diversity within a population that can
+      serve as raw material for natural selection and adaptive evolution.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Very limited genetic diversity and constrained adaptive capacity."
+        medium: "Moderate genetic variation supporting gradual adaptation."
+        high: "Extensive genetic diversity enabling rapid evolutionary responses."
+
+  - name: Selection Pressure
+    description: >
+      The intensity of environmental or biological pressures that favor certain
+      traits over others, shaping the direction and speed of evolutionary change.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak selective forces with minimal evolutionary influence."
+        medium: "Moderate selection encouraging adaptive refinement."
+        high: "Strong selection rapidly driving evolutionary adaptation."
+
+  - name: Mutation Rate
+    description: >
+      The frequency at which new mutations arise within the genome, generating
+      novel genetic variants that may contribute to evolutionary innovation.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Very slow introduction of new genetic variants."
+        medium: "Balanced mutation input supporting stable adaptation."
+        high: "Rapid generation of novel variation and evolutionary experimentation."
+
+  - name: Reproductive Capacity
+    description: >
+      The ability of organisms to reproduce efficiently and generate offspring,
+      influencing how quickly advantageous genetic traits spread through populations.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited reproduction and slower evolutionary turnover."
+        medium: "Moderate reproductive output supporting steady adaptation."
+        high: "High reproductive output accelerating evolutionary dynamics."
+
+  - name: Environmental Variability
+    description: >
+      The degree of environmental fluctuation and diversity experienced by a
+      population, promoting adaptive flexibility and evolutionary diversification.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Stable environments with limited adaptive stimulation."
+        medium: "Moderately changing environments encouraging some adaptation."
+        high: "Highly dynamic environments driving rapid diversification and resilience."

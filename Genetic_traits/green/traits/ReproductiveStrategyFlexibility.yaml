@@ -1,0 +1,60 @@
+trait: Reproductive Strategy Flexibility
+description: >
+  Reproductive strategy flexibility refers to an organism's ability to adjust its reproductive behavior and tactics in response to environmental conditions, resource availability, or social factors.
+
+factors:
+  - name: Breeding Season Timing
+    description: >
+      Flexibility in the timing of breeding seasons allows organisms to synchronize reproduction with optimal environmental conditions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Reproductive Output Adjustment
+    description: >
+      The ability to adjust the number of offspring produced in response to resource availability or environmental stability enhances flexibility.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Alternative Mating Strategies
+    description: >
+      Variation in mating behaviors or social structures that allow individuals to employ different reproductive tactics enhances flexibility.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Parental Care Investment
+    description: >
+      Adjusting the level of parental care provided based on resource availability or social dynamics supports reproductive strategy flexibility.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Clutch or Litter Size Variation
+    description: >
+      Flexibility in the number of offspring produced per reproductive event allows organisms to maximize reproductive success under varying conditions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Mate Choice Plasticity
+    description: >
+      The ability to adjust mate choice criteria based on mate availability, genetic compatibility, or social status enhances flexibility in reproductive strategies.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Sperm Competition Tactics
+    description: >
+      Employing different strategies to compete for fertilization success, such as producing more sperm or engaging in mate guarding, enhances flexibility.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Reproductive Suppression Mechanisms
+    description: >
+      Ability to suppress reproduction temporarily in response to environmental stressors, resource scarcity, or social cues enhances flexibility.
+    scale:
+      min: 0
+      max: 100

@@ -1,0 +1,60 @@
+trait: Disease Resistance
+description: >
+  Disease resistance refers to an organism's ability to prevent, combat, and recover from infections and diseases caused by pathogens such as bacteria, viruses, fungi, and parasites.
+
+factors:
+  - name: Immune System Strength
+    description: >
+      A robust immune system that can effectively recognize and eliminate pathogens enhances disease resistance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Genetic Diversity
+    description: >
+      Genetic variation that provides a wide range of defenses against different pathogens supports disease resistance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Physical Barriers
+    description: >
+      Structures such as skin, shells, or mucous layers that prevent pathogen entry enhance disease resistance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Microbiome Health
+    description: >
+      A healthy and diverse microbiome that competes with or inhibits pathogens supports disease resistance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Antimicrobial Peptides
+    description: >
+      The production of peptides that directly kill or inhibit pathogens enhances disease resistance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Fever Response
+    description: >
+      The ability to generate a fever that creates an unfavorable environment for pathogens supports disease resistance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Rapid Response Mechanisms
+    description: >
+      Fast-acting immune responses such as inflammation or phagocytosis enhance disease resistance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Behavioral Adaptations
+    description: >
+      Behaviors such as grooming, avoiding contaminated areas, or social distancing reduce disease transmission and enhance resistance.
+    scale:
+      min: 0
+      max: 100

@@ -1,0 +1,60 @@
+trait: Linguistic Skills
+description: >
+  Linguistic skills encompass the ability to understand, use, and manipulate language effectively. They are crucial for communication, comprehension, and expression.
+
+factors:
+  - name: Vocabulary Knowledge
+    description: >
+      A broad and rich vocabulary enhances linguistic skills by enabling precise and varied expression. Vocabulary knowledge is fundamental to effective communication.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Grammar and Syntax
+    description: >
+      Understanding and correctly applying grammar and syntax rules are essential for constructing clear and coherent sentences.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Phonological Awareness
+    description: >
+      Phonological awareness involves recognizing and manipulating the sounds of language. It is crucial for language acquisition, reading, and verbal expression.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Comprehension Skills
+    description: >
+      Comprehension skills involve the ability to understand spoken and written language. They are essential for processing and interpreting linguistic information.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Verbal Memory
+    description: >
+      Verbal memory, or the ability to remember and recall words and language structures, supports effective communication and language use.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Social Interaction
+    description: >
+      Regular social interaction and conversation practice enhance linguistic skills by providing opportunities for language use and feedback.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Cultural Exposure
+    description: >
+      Exposure to diverse languages and cultures broadens linguistic skills and fosters an understanding of different linguistic structures and expressions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Genetic Factors
+    description: >
+      Genetic predispositions can influence linguistic skills, including traits like verbal intelligence and auditory processing. Inherited traits contribute to individual differences in language abilities.
+    scale:
+      min: 0
+      max: 100

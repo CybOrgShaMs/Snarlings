@@ -1,0 +1,103 @@
+trait: Attention Span
+
+description: >
+  Attention span refers to the duration an individual can sustain focus on a task
+  without becoming distracted. It is a key component of cognitive performance,
+  influencing learning, productivity, and task completion efficiency.
+
+factors:
+  - name: Cognitive Focus
+    description: >
+      The ability to direct and maintain mental resources on a single task while
+      suppressing internal and external distractions.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Frequent distraction and difficulty sustaining focus."
+        medium: "Moderate focus with occasional lapses."
+        high: "Strong and sustained concentration ability."
+
+  - name: Interest and Engagement
+    description: >
+      The degree of intrinsic or extrinsic motivation toward a task, which strongly
+      influences sustained attention and cognitive persistence.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Low motivation leading to rapid disengagement."
+        medium: "Situational engagement depending on task relevance."
+        high: "Strong engagement enabling prolonged focus."
+
+  - name: Task Complexity
+    description: >
+      The cognitive demand of a task, where optimal challenge level supports
+      sustained attention while mismatch (too easy or too hard) reduces focus.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poorly matched task difficulty reducing engagement."
+        medium: "Moderate challenge supporting variable attention."
+        high: "Well-balanced complexity sustaining optimal focus."
+
+  - name: Environmental Factors
+    description: >
+      External conditions such as noise, organization, interruptions, and digital
+      distractions that influence the ability to maintain attention.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Highly distracting or chaotic environment."
+        medium: "Mixed environment with manageable distractions."
+        high: "Highly controlled, distraction-free environment."
+
+  - name: Mental and Physical Health
+    description: >
+      Overall physiological and psychological well-being, including sleep quality,
+      stress levels, and nutritional status, affecting sustained attention capacity.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor health significantly impairing focus."
+        medium: "Moderate health with occasional attentional decline."
+        high: "Strong health supporting sustained attention."
+
+  - name: Time Management
+    description: >
+      The ability to structure tasks, schedule breaks, and allocate attention
+      efficiently across time to maintain cognitive performance.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor structure leading to cognitive fatigue."
+        medium: "Basic planning supporting partial focus control."
+        high: "Strong planning enabling sustained attention cycles."
+
+  - name: Mindfulness and Meditation
+    description: >
+      Practices that train sustained attention and reduce distraction by improving
+      awareness and cognitive control over wandering thoughts.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Little to no attentional training practice."
+        medium: "Occasional practice with moderate benefits."
+        high: "Strong training leading to highly stable attention."
+
+  - name: Genetic Factors
+    description: >
+      Inherited neurocognitive traits affecting attention control systems,
+      working memory capacity, and baseline distractibility.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited innate attentional stability."
+        medium: "Moderate genetic contribution to attention control."
+        high: "Strong inherited attentional control capacity."

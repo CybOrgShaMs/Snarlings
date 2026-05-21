@@ -1,0 +1,60 @@
+trait: Adaptation to Climate Change
+description: >
+  Adaptation to climate change involves the ability of organisms to adjust and thrive despite changes in climate conditions, such as temperature fluctuations, altered precipitation patterns, and extreme weather events.
+
+factors:
+  - name: Temperature Tolerance
+    description: >
+      The ability to survive and function across a range of temperatures is crucial for adaptation to changing climate conditions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Phenological Shifts
+    description: >
+      Changes in the timing of life cycle events, such as migration, breeding, and flowering, help organisms synchronize with new climate patterns.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Behavioral Adjustments
+    description: >
+      Modifying behaviors, such as altering foraging strategies or migration routes, supports adaptation to changing climates.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Habitat Range Expansion
+    description: >
+      The ability to expand into new habitats and geographical areas helps organisms find suitable conditions as climates change.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Physiological Plasticity
+    description: >
+      Flexibility in physiological processes, such as adjusting metabolic rates and water usage, enhances adaptation to new climate conditions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Genetic Adaptation
+    description: >
+      Genetic changes that confer advantages under new climate conditions, such as heat tolerance or drought resistance, support long-term adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Symbiotic Relationships
+    description: >
+      Maintaining and forming new beneficial relationships with other species, such as pollinators or mycorrhizal fungi, can aid adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Population Connectivity
+    description: >
+      High connectivity between populations enables gene flow and the spread of adaptive traits, facilitating broader adaptation to climate change.
+    scale:
+      min: 0
+      max: 100

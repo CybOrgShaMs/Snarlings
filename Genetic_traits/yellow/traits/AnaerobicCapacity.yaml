@@ -1,0 +1,92 @@
+trait: Anaerobic capacity
+description: >
+  The maximum power output achievable through energy systems that function without oxygen, primarily glycolysis and phosphagen pathways.
+
+factors:
+  - name: Phosphocreatine Resynthesis Rate
+    description: >
+      Speed at which creatine kinase regenerates ATP from stored PCr during short bursts.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow resupply causing rapid power drop after initial effort."
+        medium: "Moderate turnover supporting standard high-intensity intervals."
+        high: "Rapid regeneration enabling repeated explosive output with minimal delay."
+
+  - name: Glycolytic Enzyme Activity (PFK, LDH)
+    description: >
+      Catalytic strength of enzymes driving glucose breakdown and lactate production.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak enzymatic flux limiting fast ATP generation."
+        medium: "Adequate activity supporting moderate anaerobic bursts."
+        high: "High enzyme concentration enabling rapid substrate conversion and power output."
+
+  - name: Muscle Fiber Type Distribution (Type IIx/IIb)
+    description: >
+      Proportion of fast-twitch fibers optimized for speed and power over endurance.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Predominantly slow fibers restricting peak anaerobic potential."
+        medium: "Balanced distribution supporting mixed performance demands."
+        high: "High fast-twitch density maximizing explosive energy release capacity."
+
+  - name: Acid Buffering Capacity
+    description: >
+      Ability of blood and muscle to neutralize hydrogen ions from lactate production.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor buffering causing rapid pH drop and muscular failure."
+        medium: "Standard capacity supporting moderate high-intensity efforts."
+        high: "Robust buffers delaying fatigue by maintaining enzymatic function in acidosis."
+
+  - name: Neuromuscular Recruitment Speed
+    description: >
+      Latency and synchronization of motor neuron firing to activate muscle fibers instantly.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow activation limiting peak force development."
+        medium: "Moderate timing supporting standard power generation."
+        high: "Rapid, coordinated recruitment maximizing instantaneous torque output."
+
+  - name: ATP Turnover Rate During Peak Load
+    description: >
+      Speed of ADP phosphorylation to meet immediate mechanical demand.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited turnover causing quick energy depletion under stress."
+        medium: "Standard cycling supporting brief high-intensity phases."
+        high: "Extreme turnover rates sustaining maximal power until substrate exhaustion."
+
+  - name: Lactate Tolerance Threshold
+    description: >
+      Concentration of lactate at which performance begins to decline despite continued effort.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Early threshold causing rapid slowdown as acid accumulates."
+        medium: "Moderate tolerance allowing sustained high-intensity work."
+        high: "High threshold enabling prolonged power output before fatigue sets in."
+
+  - name: Post-Exertion Recovery Efficiency
+    description: >
+      Speed of clearing lactate, replenishing PCr, and restoring ion balance after anaerobic bursts.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow recovery prolonging fatigue between high-intensity efforts."
+        medium: "Standard clearance supporting typical interval training demands."
+        high: "Rapid restoration enabling repeated maximal outputs with minimal degradation."

@@ -1,0 +1,92 @@
+trait: ATP production capacity
+description: >
+  The maximum rate at which cellular machinery synthesizes adenosine triphosphate to fuel mechanical, chemical, and transport processes.
+
+factors:
+  - name: Oxidative Phosphorylation Density
+    description: >
+      Concentration of electron transport chain complexes and ATP synthase in mitochondrial membranes.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Sparse respiratory machinery limiting aerobic ATP yield."
+        medium: "Standard ETC density supporting baseline energy demands."
+        high: "Dense oxidative networks enabling rapid and sustained ATP synthesis."
+
+  - name: Glycolytic Enzyme Concentration
+    description: >
+      Levels of key cytosolic enzymes (e.g., hexokinase, PFK) that drive anaerobic glucose breakdown.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited glycolytic flux restricting fast ATP generation."
+        medium: "Adequate enzyme pools supporting moderate anaerobic output."
+        high: "Highly concentrated pathways enabling rapid burst energy production."
+
+  - name: Substrate Availability (Glucose/Fatty Acids)
+    description: >
+      Immediate supply of oxidizable fuels entering metabolic pathways.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Fuel scarcity forcing reliance on stored reserves or catabolism."
+        medium: "Steady substrate delivery maintaining consistent ATP turnover."
+        high: "Abundant fuel pools supporting maximal synthetic rates without limitation."
+
+  - name: Electron Transport Chain Integrity
+    description: >
+      Functional state of protein complexes preventing electron leakage and proton gradient collapse.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Damaged complexes causing frequent leaks and reduced coupling."
+        medium: "Well-maintained chains with occasional minor inefficiencies."
+        high: "Pristine complexes ensuring near-quantitative electron-to-proton conversion."
+
+  - name: ADP/ATP Translocase Activity
+    description: >
+      Efficiency of membrane carriers exchanging cytosolic ADP for mitochondrial ATP.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow exchange creating substrate limitation inside mitochondria."
+        medium: "Standard translocase function matching typical cellular demand."
+        high: "Rapid carrier cycling preventing ADP bottleneck during peak usage."
+
+  - name: Cellular Oxygen Tension
+    description: >
+      Partial pressure of O2 available for terminal electron acceptance in aerobic respiration.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Hypoxic conditions forcing shift to less efficient anaerobic pathways."
+        medium: "Normoxic levels supporting balanced oxidative phosphorylation."
+        high: "Hyperoxic or well-perfused environments maximizing aerobic ATP yield."
+
+  - name: Mitochondrial Biogenesis Rate
+    description: >
+      Frequency of new mitochondria formation in response to energy demand signals.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited replication restricting long-term capacity expansion."
+        medium: "Moderate biogenesis supporting adaptive growth during sustained load."
+        high: "Rapid organelle production enabling swift capacity upgrades under stress."
+
+  - name: Phosphocreatine Buffering Capacity
+    description: >
+      Storage and rapid regeneration of ATP via creatine kinase reactions in muscle and neural tissue.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Small PCr reserves causing quick fatigue during high-intensity bursts."
+        medium: "Standard buffering supporting short-term peak demands."
+        high: "Extensive PCr pools enabling prolonged high-power output before oxidative takeover."

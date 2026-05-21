@@ -1,0 +1,92 @@
+trait: Sleep efficiency
+description: >
+  The proportion of time spent in restorative sleep stages relative to total time in bed, reflecting metabolic and neural recovery optimization.
+
+factors:
+  - name: Circadian Rhythm Alignment
+    description: >
+     Synchronization of internal biological clock with environmental light-dark cycles.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Misaligned rhythms causing fragmented sleep and poor recovery."
+        medium: "Moderate alignment supporting standard restorative cycles."
+        high: "Precise synchronization enabling deep, uninterrupted sleep phases."
+
+  - name: Adenosine Buildup Clearance Rate
+    description: >
+     Speed at which the brain removes sleep-promoting neuromodulators during wakefulness.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow clearance causing residual fatigue and delayed sleep onset."
+        medium: "Standard metabolism supporting typical sleep pressure regulation."
+        high: "Rapid adenosine processing enabling quick transition into restorative states."
+
+  - name: Melatonin Secretion Timing
+    description: >
+     Release pattern of the hormone that signals darkness and initiates sleep architecture.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor timing causing delayed onset or fragmented maintenance."
+        medium: "Moderate secretion supporting standard circadian sleep cues."
+        high: "Optimal pulse ensuring rapid sleep induction and stage progression."
+
+  - name: REM/NREM Cycle Balance
+    description: >
+     Proportion of restorative non-REM versus memory-consolidating REM sleep phases.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Imbalanced cycles causing incomplete physical or cognitive recovery."
+        medium: "Standard distribution supporting balanced neural and bodily restoration."
+        high: "Optimal cycling maximizing both tissue repair and synaptic consolidation."
+
+  - name: Core Body Temperature Drop Magnitude
+    description: >
+     Depth of thermal decline signaling sleep onset and maintaining deep rest.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Shallow temperature drop causing frequent awakenings and light sleep."
+        medium: "Moderate cooling supporting stable sleep architecture."
+        high: "Significant thermal decline promoting prolonged deep sleep phases."
+
+  - name: Cortisol Suppression During Rest
+    description: >
+     Ability to lower stress hormones to prevent arousal and maintain sleep continuity.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor suppression causing nighttime awakenings and fragmented recovery."
+        medium: "Standard regulation supporting uninterrupted rest periods."
+        high: "Effective hormonal dampening enabling deep, consolidated sleep cycles."
+
+  - name: Neural Glymphatic Clearance Speed
+    description: >
+     Rate at which cerebrospinal fluid flushes metabolic waste (e.g., beta-amyloid) from the brain.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow flushing causing toxin accumulation and next-day cognitive fog."
+        medium: "Moderate clearance supporting routine neural maintenance."
+        high: "Rapid glymphatic flow ensuring thorough brain detoxification during sleep."
+
+  - name: Sleep Architecture Stability
+    description: >
+     Consistency of transitioning through sleep stages without external or internal disruptions.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Frequent interruptions preventing full cycle completion and recovery."
+        medium: "Standard stability supporting adequate restorative outcomes."
+        high: "Highly stable architecture enabling optimal physiological and mental restoration."

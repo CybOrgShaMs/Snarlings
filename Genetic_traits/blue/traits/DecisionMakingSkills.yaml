@@ -1,0 +1,60 @@
+trait: Decision-making Skills
+description: >
+  Decision-making skills involve the ability to evaluate information, weigh options, and choose the best course of action. These skills are crucial for effective problem-solving, planning, and leadership.
+
+factors:
+  - name: Critical Thinking
+    description: >
+      Critical thinking skills enable the objective evaluation of information and options, supporting informed decision-making.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Risk Assessment
+    description: >
+      The ability to assess risks and potential outcomes is essential for making sound decisions. It involves evaluating the likelihood and impact of different options.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Problem-solving Skills
+    description: >
+      Effective problem-solving skills support decision-making by providing strategies for identifying and addressing challenges and obstacles.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Emotional Regulation
+    description: >
+      The ability to regulate emotions helps maintain objectivity and clarity during the decision-making process, reducing the influence of stress and anxiety.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Information Gathering
+    description: >
+      The ability to gather and analyze relevant information is crucial for making informed decisions. It involves researching, data collection, and critical evaluation of sources.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Experience and Expertise
+    description: >
+      Experience and expertise in a specific domain enhance decision-making skills by providing knowledge and insights from past situations and outcomes.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Cognitive Flexibility
+    description: >
+      Cognitive flexibility allows individuals to adapt their thinking and consider multiple perspectives, improving the quality of decisions.
+    scale:
+      min: 0
+      max: 100
+      
+  - name: Genetic Factors
+    description: >
+      Genetic predispositions can influence decision-making skills, including traits like cognitive control and risk tolerance. Inherited traits contribute to individual differences in decision-making abilities.
+    scale:
+      min: 0
+      max: 100

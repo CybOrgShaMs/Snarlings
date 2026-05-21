@@ -1,0 +1,92 @@
+trait: Thermoregulation efficiency
+description: >
+  The ability to maintain optimal internal temperature through physiological and behavioral heat exchange mechanisms with minimal energy waste.
+
+factors:
+  - name: Vasodilation/Vasoconstriction Response Speed
+    description: >
+      Rate at which blood vessels expand or contract to redirect heat flow toward or away from the surface.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow vascular adjustments causing prolonged temperature deviations."
+        medium: "Moderate response time supporting standard thermal adaptation."
+        high: "Rapid vessel modulation enabling precise heat distribution control."
+
+  - name: Sweating/Panting Capacity
+    description: >
+      Volume and efficiency of evaporative cooling mechanisms during heat stress.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited evaporation forcing reliance on conduction/convection."
+        medium: "Standard output maintaining balance under moderate thermal load."
+        high: "High evaporative capacity enabling rapid core temperature reduction."
+
+  - name: Insulative Tissue Thickness (Fat/Fur/Feathers)
+    description: >
+      Layering of low-conductivity materials that reduce heat loss or gain.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Thin insulation allowing rapid environmental temperature exchange."
+        medium: "Moderate layering providing balanced thermal buffering."
+        high: "Dense insulative structures minimizing conductive heat transfer."
+
+  - name: Metabolic Heat Production Rate
+    description: >
+      Internal generation of warmth through shivering, non-shivering thermogenesis, and organ activity.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Low heat output requiring external sources for temperature maintenance."
+        medium: "Moderate production supporting baseline thermal homeostasis."
+        high: "High endogenous generation enabling survival in cold environments."
+
+  - name: Behavioral Thermoregulation Frequency
+    description: >
+      Use of posture, shade-seeking, basking, or nesting to supplement physiological control.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal behavioral adjustment relying solely on internal mechanisms."
+        medium: "Regular behavior complementing physiological responses effectively."
+        high: "Highly strategic actions optimizing heat gain/loss with minimal energy cost."
+
+  - name: Hypothalamic Set-Point Accuracy
+    description: >
+      Precision of the brain's thermal thermostat in triggering appropriate effector responses.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Erratic set-points causing overcorrection or delayed responses."
+        medium: "Stable regulation maintaining consistent internal temperature."
+        high: "Highly accurate sensing enabling proactive and finely tuned adjustments."
+
+  - name: Heat Shock Protein Expression
+    description: >
+      Production of chaperones that stabilize enzymes and membranes during thermal stress.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Sparse HSPs leading to protein denaturation at temperature extremes."
+        medium: "Moderate expression protecting critical structures during fluctuations."
+        high: "Robust chaperone networks maintaining function across wide thermal ranges."
+
+  - name: Peripheral Nerve Sensitivity
+    description: >
+      Responsiveness of skin and extremity thermoreceptors to environmental changes.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Blunted sensing causing delayed or inappropriate thermal responses."
+        medium: "Standard sensitivity supporting reliable feedback loops."
+        high: "Highly acute detection enabling immediate and precise regulatory actions."

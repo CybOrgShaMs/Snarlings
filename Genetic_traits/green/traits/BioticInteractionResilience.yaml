@@ -1,0 +1,60 @@
+trait: Biotic Interaction Resilience
+description: >
+  Biotic interaction resilience refers to an organism's ability to withstand and adapt to interactions with other living organisms, including competition, predation, and symbiosis.
+
+factors:
+  - name: Competitive Ability
+    description: >
+      Traits that enhance the ability to compete for resources such as food, water, and space support biotic interaction resilience.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Predator Avoidance Mechanisms
+    description: >
+      Physical, behavioral, or chemical traits that help evade predators enhance resilience in predator-rich environments.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Symbiotic Relationships
+    description: >
+      Beneficial interactions with other organisms, such as mutualistic relationships, enhance biotic interaction resilience.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Parasitic Resistance
+    description: >
+      The ability to resist or tolerate parasitic organisms supports resilience in environments with high parasite loads.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Interspecies Communication
+    description: >
+      Effective communication mechanisms, such as alarm calls or chemical signals, enhance resilience in social and competitive interactions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Resource Sharing Strategies
+    description: >
+      Behaviors or mechanisms that allow for resource sharing among conspecifics or different species enhance biotic interaction resilience.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Adaptation to Social Structures
+    description: >
+      The ability to adapt to different social structures, such as hierarchical or cooperative groups, supports resilience in social interactions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Reproductive Timing
+    description: >
+      Timing reproduction to avoid periods of high competition or predation enhances biotic interaction resilience.
+    scale:
+      min: 0
+      max: 100

@@ -1,0 +1,92 @@
+trait: Waste management efficiency
+description: >
+  The systematic processing and elimination of metabolic byproducts, toxins, and cellular debris to maintain homeostasis.
+
+factors:
+  - name: Hepatic Detoxification Enzyme Activity
+    description: >
+     Concentration of cytochrome P450 and conjugation enzymes that neutralize circulating toxins.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Reduced enzyme levels causing toxin accumulation and cellular stress."
+        medium: "Moderate activity supporting standard metabolic clearance."
+        high: "High enzymatic capacity enabling rapid detoxification of diverse compounds."
+
+  - name: Renal Filtration Rate
+    description: >
+     Volume of blood plasma filtered by kidneys to extract water-soluble waste.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow filtration causing delayed excretion and fluid retention."
+        medium: "Standard GFR supporting routine solute removal."
+        high: "High filtration rates ensuring prompt elimination of metabolic byproducts."
+
+  - name: Biliary Excretion Capacity
+    description: >
+     Ability to secrete conjugated waste into bile for intestinal elimination.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor secretion causing reabsorption and enterohepatic recycling."
+        medium: "Moderate output supporting standard lipid-soluble waste removal."
+        high: "High biliary flow ensuring efficient export of toxins and bilirubin."
+
+  - name: Lymphatic Clearance Speed
+    description: >
+     Transport rate of large particles, proteins, and immune debris away from tissues.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow drainage causing localized swelling and waste buildup."
+        medium: "Standard flow supporting routine interstitial fluid balance."
+        high: "Rapid lymphatic movement preventing congestion and promoting recovery."
+
+  - name: Cellular Autophagy Frequency
+    description: >
+     Rate of intracellular recycling of damaged organelles and misfolded proteins.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Infrequent autophagy allowing toxic aggregates to accumulate."
+        medium: "Moderate turnover maintaining baseline cellular cleanliness."
+        high: "High recycling activity rapidly clearing debris and renewing components."
+
+  - name: Urea/Ammonia Conversion Efficiency
+    description: >
+     Speed of transforming nitrogenous waste into less toxic, excretable forms.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow conversion causing ammonia buildup and neural disruption."
+        medium: "Standard processing supporting balanced nitrogen metabolism."
+        high: "Rapid urea cycle function ensuring safe waste transport to kidneys."
+
+  - name: Sweat Gland Secretion Balance
+    description: >
+     Regulation of electrolyte and minor toxin excretion through skin perspiration.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited secretion reducing auxiliary waste removal pathways."
+        medium: "Moderate output supporting thermal regulation and minor detox."
+        high: "High glandular activity enhancing cutaneous excretion of salts and metabolites."
+
+  - name: Excretory Organ Structural Integrity
+    description: >
+     Physical health of kidneys, liver, intestines, and skin affecting filtration and transport.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Degraded structures causing leakage or reduced processing capacity."
+        medium: "Healthy organs supporting standard waste handling operations."
+        high: "Optimized architecture enabling maximum throughput and selective retention."

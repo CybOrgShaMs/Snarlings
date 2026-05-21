@@ -1,0 +1,67 @@
+trait: Selective Advantage
+
+description: >
+  Selective advantage refers to the relative increase in fitness conferred by
+  a specific trait or allele, leading to its greater prevalence in a population
+  over time through the process of natural selection.
+
+factors:
+  - name: Fitness Differential
+    description: >
+      The difference in reproductive success and survival between individuals
+      with and without a given trait, determining the strength of selection.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal fitness differences between variants."
+        medium: "Moderate differences producing gradual selection."
+        high: "Large fitness gaps driving rapid allele frequency change."
+
+  - name: Selection Intensity
+    description: >
+      The overall strength of environmental and ecological pressures that determine
+      how strongly advantageous traits are favored.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak selection with slow evolutionary change."
+        medium: "Moderate selection shaping trait distributions."
+        high: "Strong selection rapidly favoring advantageous traits."
+
+  - name: Environmental Heterogeneity
+    description: >
+      The variation in environmental conditions across space and time, which can
+      alter which traits are advantageous in different contexts.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Uniform environments with consistent selection pressures."
+        medium: "Moderately variable environments with shifting advantages."
+        high: "Highly variable environments maintaining diverse selective regimes."
+
+  - name: Frequency-Dependent Selection
+    description: >
+      A selective process where the fitness of a trait depends on its prevalence
+      in the population, often maintaining diversity or rare-variant advantages.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Little dependence of fitness on trait frequency."
+        medium: "Moderate frequency effects influencing selection dynamics."
+        high: "Strong frequency dependence shaping evolutionary outcomes."
+
+  - name: Trade-Offs
+    description: >
+      Constraints where benefits in one fitness component are offset by costs
+      in another, influencing the net selective advantage of traits.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Few or weak trade-offs affecting trait performance."
+        medium: "Moderate trade-offs balancing benefits and costs."
+        high: "Strong trade-offs significantly constraining advantage."

@@ -1,0 +1,60 @@
+trait: Soil Adaptation
+description: >
+  Soil adaptation refers to an organism's ability to thrive in various soil types and conditions. This trait is crucial for survival and growth in different terrestrial environments.
+
+factors:
+  - name: Root System Development
+    description: >
+      Extensive and varied root systems that can access nutrients and water from different soil types enhance soil adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Symbiotic Relationships
+    description: >
+      Associations with mycorrhizal fungi or nitrogen-fixing bacteria that improve nutrient uptake in various soils support soil adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Soil pH Tolerance
+    description: >
+      The ability to tolerate a range of soil pH levels through physiological or biochemical mechanisms enhances soil adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Nutrient Utilization Efficiency
+    description: >
+      Efficient uptake and utilization of soil nutrients such as nitrogen, phosphorus, and potassium support growth in diverse soils.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Soil Moisture Adaptation
+    description: >
+      Adaptations to varying soil moisture levels, such as drought-resistant root structures or mechanisms to avoid waterlogging, enhance soil adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Tolerance to Soil Compaction
+    description: >
+      Physical or biochemical traits that allow growth in compacted soils support soil adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Resistance to Soil-Borne Pathogens
+    description: >
+      Traits that confer resistance to pathogens found in different soil types enhance soil adaptation.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Organic Matter Decomposition
+    description: >
+      The ability to decompose organic matter efficiently in the soil to release nutrients supports soil adaptation.
+    scale:
+      min: 0
+      max: 100

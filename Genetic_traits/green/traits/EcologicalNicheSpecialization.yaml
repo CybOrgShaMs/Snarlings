@@ -1,0 +1,60 @@
+trait: Ecological Niche Specialization
+description: >
+  Ecological niche specialization refers to an organism's adaptation to a specific set of environmental conditions and resources, allowing it to thrive in a particular ecological niche.
+
+factors:
+  - name: Resource Utilization Efficiency
+    description: >
+      Efficient use of specific resources, such as food or habitat, supports specialization in a particular niche.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Morphological Adaptations
+    description: >
+      Physical traits that enhance an organism's ability to exploit its niche, such as specialized feeding structures or camouflage, contribute to niche specialization.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Behavioral Adaptations
+    description: >
+      Specific behaviors, such as mating rituals or foraging techniques, that are well-suited to the niche environment support specialization.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Symbiotic Relationships
+    description: >
+      Relationships with other species that provide benefits within the niche, such as mutualisms or commensalisms, enhance specialization.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Reproductive Strategies
+    description: >
+      Reproductive traits and strategies that are optimized for the niche environment, such as specific breeding seasons or locations, support niche specialization.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Competitive Exclusion
+    description: >
+      The ability to outcompete other species for niche resources, reducing competition and enhancing specialization.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Environmental Tolerance
+    description: >
+      Tolerance to specific environmental conditions, such as pH levels or soil types, supports niche specialization.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Genetic Adaptation
+    description: >
+      Genetic traits that are fine-tuned to the niche environment enhance specialization and success within that niche.
+    scale:
+      min: 0
+      max: 100

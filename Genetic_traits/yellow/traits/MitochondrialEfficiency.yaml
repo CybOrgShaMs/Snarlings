@@ -1,0 +1,92 @@
+trait: Mitochondrial efficiency
+description: >
+  The optimization of mitochondrial structures, membranes, and biochemical processes for ATP synthesis, heat production, and metabolic regulation.
+
+factors:
+  - name: Cristae Surface Area Density
+    description: >
+      Extent of inner membrane folding that houses electron transport complexes and ATP synthase.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Flat membranes limiting enzyme capacity and respiratory output."
+        medium: "Moderate folding supporting standard energy conversion rates."
+        high: "Highly convoluted cristae maximizing catalytic surface area."
+
+  - name: Membrane Potential Stability
+    description: >
+      Consistency of the electrochemical gradient driving ATP production without sudden drops.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Frequent depolarization causing energy fluctuations and inefficiency."
+        medium: "Stable potential supporting steady oxidative phosphorylation."
+        high: "Tight gradient control ensuring reliable ATP synthesis under load."
+
+  - name: Uncoupling Protein Expression (UCPs)
+    description: >
+      Presence of proteins that dissipate proton gradient as heat instead of driving ATP synthase.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal UCPs favoring maximum ATP yield over thermogenesis."
+        medium: "Balanced expression allowing adaptive heat production when needed."
+        high: "High UCP activity prioritizing thermal regulation and ROS reduction."
+
+  - name: Fatty Acid Oxidation Rate
+    description: >
+      Speed at which mitochondria break down lipids into acetyl-CoA for the Krebs cycle.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow beta-oxidation limiting long-duration energy supply."
+        medium: "Moderate processing supporting mixed fuel utilization."
+        high: "Rapid lipid breakdown enabling sustained oxidative metabolism."
+
+  - name: Calcium Handling Capacity
+    description: >
+      Ability to buffer and utilize Ca2+ for dehydrogenase activation and signaling without overload.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor buffering causing enzyme inhibition or permeability transition."
+        medium: "Standard uptake supporting regulated metabolic stimulation."
+        high: "Efficient sequestration enhancing enzymatic activity and signaling precision."
+
+  - name: mtDNA Mutation Load
+    description: >
+      Accumulation of mitochondrial genetic errors affecting respiratory complex assembly.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Pristine genomes ensuring optimal complex formation and function."
+        medium: "Moderate mutations causing minor efficiency dips in specific tissues."
+        high: "High mutational burden disrupting assembly and reducing output capacity."
+
+  - name: Biogenesis Signaling (PGC-1a)
+    description: >
+      Transcriptional activation driving mitochondrial replication and quality control.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak signaling limiting organelle renewal and adaptive growth."
+        medium: "Moderate activation supporting routine maintenance cycles."
+        high: "Strong signaling promoting rapid proliferation and mitophagy clearance."
+
+  - name: Apoptotic Threshold Sensitivity
+    description: >
+      Point at which mitochondrial damage triggers programmed cell death versus repair.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "High threshold favoring survival and repair over elimination."
+        medium: "Balanced sensitivity maintaining tissue homeostasis."
+        high: "Low threshold rapidly removing dysfunctional mitochondria to protect network."

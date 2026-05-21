@@ -1,0 +1,92 @@
+trait: Endurance
+description: >
+  The sustained ability to perform prolonged physical or metabolic activity without fatigue, performance decline, or systemic depletion.
+
+factors:
+  - name: Capillary Density in Tissues
+    description: >
+      Number of microvessels supplying oxygen and nutrients to working muscles and organs.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Sparse vasculature causing early hypoxia and metabolic waste buildup."
+        medium: "Adequate supply supporting moderate sustained activity."
+        high: "Dense networks enabling prolonged oxygen delivery and lactate clearance."
+
+  - name: Lactate Clearance Rate
+    description: >
+      Speed at which muscles and liver convert or recycle lactic acid to prevent acidosis.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow removal causing rapid pH drop and muscular fatigue."
+        medium: "Moderate clearance supporting extended effort with manageable buildup."
+        high: "Rapid processing allowing sustained intensity without acidotic limitation."
+
+  - name: Cardiovascular Stroke Volume
+    description: >
+      Amount of blood pumped per heartbeat, determining systemic oxygen transport capacity.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Reduced volume forcing high heart rates to maintain output."
+        medium: "Standard pumping efficiency supporting moderate aerobic demand."
+        high: "High stroke volume enabling efficient circulation at lower cardiac strain."
+
+  - name: Glycogen Sparing Mechanisms
+    description: >
+      Ability to shift fuel preference toward fats during prolonged activity to conserve carbohydrate stores.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Heavy glycogen reliance causing early depletion and bonking."
+        medium: "Moderate switching extending usable energy duration."
+        high: "Efficient lipid utilization preserving carbs for peak intensity phases."
+
+  - name: Neuromuscular Coordination Efficiency
+    description: >
+      Precision of motor unit recruitment reducing wasted movement and metabolic cost.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Uncoordinated firing increasing energy waste and fatigue."
+        medium: "Standard synchronization supporting steady performance output."
+        high: "Highly refined recruitment minimizing caloric drain per unit of work."
+
+  - name: Aerobic Threshold Level
+    description: >
+      Intensity at which metabolism shifts from predominantly aerobic to anaerobic.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Early threshold forcing rapid reliance on inefficient glycolysis."
+        medium: "Moderate threshold allowing prolonged oxidative dominance."
+        high: "High threshold enabling sustained effort at greater intensities without fatigue."
+
+  - name: Recovery Kinetics Between Exertion
+    description: >
+      Speed of restoring ATP, clearing metabolites, and resetting neural drive after pauses.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow restoration causing cumulative fatigue across intervals."
+        medium: "Standard recovery supporting rhythmic work-rest cycles."
+        high: "Rapid reset enabling repeated high-output bursts with minimal degradation."
+
+  - name: Psychological Drive Modulation
+    description: >
+      Central nervous system's ability to sustain motivation and reduce perceived effort during prolonged tasks.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Quick mental fatigue limiting voluntary output duration."
+        medium: "Moderate drive supporting consistent effort over extended periods."
+        high: "Strong neural persistence overriding peripheral fatigue signals for longer endurance."

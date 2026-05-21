@@ -1,0 +1,103 @@
+trait: Creativity
+
+description: >
+  Creativity is the capacity to generate novel, original, and meaningful ideas,
+  solutions, or expressions. It arises from the interaction of divergent thinking,
+  imagination, cognitive flexibility, and motivational and environmental influences.
+
+factors:
+  - name: Divergent Thinking
+    description: >
+      The ability to produce multiple, varied, and original solutions to a single
+      problem, enabling exploration of many possible directions.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited idea generation and rigid response patterns."
+        medium: "Moderate idea generation with some variation."
+        high: "Strong fluency and originality in idea production."
+
+  - name: Imagination
+    description: >
+      The capacity to mentally simulate novel scenarios, concepts, or worlds
+      that are not directly present in reality.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Restricted imaginative capacity."
+        medium: "Moderate ability to envision new scenarios."
+        high: "Vivid and expansive imaginative thinking."
+
+  - name: Cognitive Flexibility
+    description: >
+      The ability to shift perspectives, restructure concepts, and adapt thinking
+      strategies to new or unconventional frameworks.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rigid thinking with limited perspective shifts."
+        medium: "Occasional adaptability in thinking approaches."
+        high: "Highly flexible, multi-perspective cognition."
+
+  - name: Environmental Stimulation
+    description: >
+      The extent of exposure to diverse experiences, cultures, and stimuli that
+      provide raw material for creative synthesis.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited exposure to novel or diverse environments."
+        medium: "Moderate stimulation from varied experiences."
+        high: "Rich and diverse environmental input fueling creativity."
+
+  - name: Emotional Expression
+    description: >
+      The ability to translate emotional states into creative outputs,
+      channeling affect into expressive or innovative forms.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Restricted emotional expression in creative contexts."
+        medium: "Moderate emotional influence on output."
+        high: "Strong emotional integration driving creativity."
+
+  - name: Risk-taking
+    description: >
+      The willingness to explore uncertain, unconventional, or experimental ideas
+      despite potential failure or criticism.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Avoidance of uncertainty and experimentation."
+        medium: "Selective willingness to take creative risks."
+        high: "Strong propensity for experimentation and novelty."
+
+  - name: Intrinsic Motivation
+    description: >
+      Internal drive to engage in creative activity for personal satisfaction,
+      curiosity, or self-expression rather than external reward.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Low internal drive for creative activity."
+        medium: "Moderate motivation depending on context."
+        high: "Strong self-driven creative engagement."
+
+  - name: Genetic Factors
+    description: >
+      Inherited biological traits influencing openness, associative thinking,
+      and cognitive variability that contribute to creative potential.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited inherited contribution to creativity."
+        medium: "Moderate genetic influence on creative traits."
+        high: "Strong innate predisposition toward creativity."

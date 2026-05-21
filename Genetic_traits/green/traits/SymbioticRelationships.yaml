@@ -1,0 +1,46 @@
+trait: Symbiotic Relationships
+description: >
+  Symbiotic relationships refer to close and long-term interactions between different species that result in mutual benefits, such as enhanced nutrition, protection, or access to resources.
+
+factors:
+  - name: Mutualistic Partnerships
+    description: >
+      Collaborative relationships where both species benefit, such as pollination by insects or nitrogen fixation by bacteria, enhance symbiotic relationships.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Commensalism
+    description: >
+      Relationships where one species benefits without harming the other, such as epiphytic plants using trees for support, enhance symbiosis.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Parasite Host Specificity
+    description: >
+      Specificity in parasite-host relationships that minimizes harm to the host while providing benefits to the parasite enhances symbiotic interactions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Protective Mutualisms
+    description: >
+      Relationships where one species provides protection or defense against predators, pathogens, or environmental stressors to the other enhance symbiosis.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Nutrient Cycling
+    description: >
+      Interactions that facilitate the exchange or recycling of nutrients between species, such as mycorrhizal fungi aiding plant nutrient uptake, enhance symbiotic relationships.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Facultative Symbiosis
+    description: >
+      Relationships where species can live independently but benefit from association, allowing flexibility
+    scale:
+      min: 0
+      max: 100

@@ -1,0 +1,67 @@
+trait: Genetic Drift
+
+description: >
+  Genetic drift is the random fluctuation of allele frequencies in a population
+  due to chance events rather than selection. It is especially influential in
+  small or isolated populations and can lead to loss of genetic variation over time.
+
+factors:
+  - name: Population Size
+    description: >
+      The size of the breeding population, which determines how strongly random
+      sampling effects influence allele frequency changes across generations.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Large populations where drift has minimal impact."
+        medium: "Moderate populations where drift has noticeable but limited effects."
+        high: "Small populations where drift strongly shapes genetic variation."
+
+  - name: Bottleneck Events
+    description: >
+      Sudden reductions in population size that cause random loss of alleles,
+      often permanently reducing genetic diversity.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "No or rare bottlenecks with stable population size."
+        medium: "Occasional bottlenecks with partial loss of variation."
+        high: "Frequent or severe bottlenecks causing major genetic loss."
+
+  - name: Founder Effects
+    description: >
+      Genetic changes that occur when a new population is established by a small
+      number of individuals, leading to non-representative allele sampling.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Large founding groups with representative genetic sampling."
+        medium: "Moderate founder events with some loss of variation."
+        high: "Severe founder effects with strong genetic distortion."
+
+  - name: Genetic Isolation
+    description: >
+      The degree to which populations are reproductively and geographically isolated,
+      limiting gene flow and amplifying random genetic changes.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Well-connected populations with ongoing gene flow."
+        medium: "Partially isolated populations with limited exchange."
+        high: "Strongly isolated populations with intense drift effects."
+
+  - name: Population Subdivision
+    description: >
+      The division of a population into smaller, partially or fully isolated groups,
+      increasing the strength of drift within each subpopulation.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Panmictic populations with little structure."
+        medium: "Moderately structured populations with some subdivision."
+        high: "Highly subdivided populations with strong independent drift dynamics."

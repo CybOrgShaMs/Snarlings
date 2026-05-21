@@ -1,0 +1,69 @@
+trait: Phenotypic Plasticity
+
+description: >
+  Phenotypic plasticity is the ability of an organism to produce different
+  phenotypes from the same genotype in response to environmental conditions.
+  It enables flexible adjustment to changing environments without requiring
+  genetic change, improving short-term survival and adaptability.
+
+factors:
+  - name: Environmental Variability
+    description: >
+      The degree of fluctuation in environmental conditions such as temperature,
+      moisture, resource availability, and habitat structure that triggers
+      plastic responses in organisms.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Stable environments with little need for phenotypic adjustment."
+        medium: "Moderately variable environments inducing some plastic responses."
+        high: "Highly variable environments strongly selecting for plasticity."
+
+  - name: Developmental Flexibility
+    description: >
+      The capacity of an organism to modify developmental pathways during growth
+      in response to environmental cues, shaping final phenotype outcomes.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rigid developmental programs with fixed outcomes."
+        medium: "Moderate flexibility allowing partial adjustment."
+        high: "Highly flexible development producing strongly environment-dependent phenotypes."
+
+  - name: Regulatory Mechanisms
+    description: >
+      The molecular systems that control gene expression and cellular response
+      to environmental signals, including transcriptional regulation and epigenetic modification.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited regulatory responsiveness to environmental cues."
+        medium: "Functional but moderate gene regulation capacity."
+        high: "Highly dynamic regulation enabling rapid phenotypic adjustment."
+
+  - name: Phenotypic Memory
+    description: >
+      The persistence of environmentally induced phenotypic states across time
+      or generations, often mediated by epigenetic inheritance.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "No retention of environmentally induced traits."
+        medium: "Short-term or partial persistence of induced traits."
+        high: "Strong transgenerational or long-term phenotypic retention."
+
+  - name: Trade-Offs
+    description: >
+      Constraints arising from allocation of limited biological resources between
+      competing traits, which can limit the extent or cost-efficiency of plastic responses.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Few constraints on simultaneous trait optimization."
+        medium: "Moderate trade-offs limiting some plastic responses."
+        high: "Strong trade-offs significantly constraining plasticity."

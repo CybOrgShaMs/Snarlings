@@ -1,0 +1,69 @@
+trait: Mutation Pressure
+
+description: >
+  Mutation pressure refers to the cumulative influence of mutagenic forces and
+  biological processes that increase the rate at which genetic mutations arise
+  within a population. It shapes genetic variation, evolutionary dynamics, and
+  the balance between genome stability and adaptability.
+
+factors:
+  - name: Mutagenic Agents
+    description: >
+      External mutagenic influences such as radiation, reactive chemicals,
+      and environmental pollutants that directly damage DNA or disrupt replication fidelity.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal exposure to external mutagens."
+        medium: "Moderate exposure causing occasional DNA damage."
+        high: "High exposure leading to frequent mutational events."
+
+  - name: Replication Errors
+    description: >
+      Errors introduced during DNA replication, including mismatches,
+      insertions, and deletions caused by imperfect polymerase activity.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Highly accurate replication with strong error correction."
+        medium: "Occasional replication errors balanced by repair systems."
+        high: "Frequent replication errors contributing strongly to mutation load."
+
+  - name: Repair Mechanisms
+    description: >
+      The effectiveness of DNA repair pathways in detecting and correcting
+      genetic damage, thereby reducing effective mutation accumulation.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak repair systems allowing mutation accumulation."
+        medium: "Moderately effective repair with some residual mutations."
+        high: "Highly efficient repair strongly limiting mutation pressure."
+
+  - name: Environmental Stress
+    description: >
+      Environmental conditions such as temperature extremes, oxidative stress,
+      and nutrient limitation that indirectly increase mutation rates through
+      physiological strain and DNA instability.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Stable conditions with minimal stress-induced damage."
+        medium: "Moderate stress with occasional genomic impact."
+        high: "Severe stress significantly increasing mutation frequency."
+
+  - name: Evolutionary Trade-Offs
+    description: >
+      The balance between maintaining genomic stability and enabling adaptability,
+      where increased mutation rates may be tolerated under strong selection pressure.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Strong selection for genomic stability and low mutation rates."
+        medium: "Balanced trade-off between stability and adaptability."
+        high: "High tolerance for mutation to accelerate evolutionary change."

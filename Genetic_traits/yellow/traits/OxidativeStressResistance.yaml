@@ -1,0 +1,92 @@
+trait: Oxidative stress resistance
+description: >
+  The capacity to neutralize reactive oxygen species (ROS) and repair oxidative damage without compromising cellular integrity or function.
+
+factors:
+  - name: Antioxidant Enzyme Levels (SOD, Catalase)
+    description: >
+      Concentration of superoxide dismutase and catalase that convert ROS into water and oxygen.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Sparse enzyme pools allowing rapid ROS accumulation and damage."
+        medium: "Adequate levels maintaining baseline oxidative balance."
+        high: "High enzyme density enabling swift neutralization of free radicals."
+
+  - name: Glutathione Availability
+    description: >
+      Intracellular concentration of the primary non-enzymatic antioxidant that detoxifies peroxides and heavy metals.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Depleted glutathione leaving cells vulnerable to lipid and protein oxidation."
+        medium: "Standard reserves supporting routine oxidative defense."
+        high: "Abundant pools providing robust chemical scavenging capacity."
+
+  - name: Lipid Peroxidation Rates
+    description: >
+      Speed at which ROS attack membrane fatty acids, compromising barrier function.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow peroxidation indicating strong membrane protection."
+        medium: "Moderate damage requiring regular repair and replacement cycles."
+        high: "Rapid chain reactions causing widespread membrane fragmentation."
+
+  - name: DNA/Protein Oxidation Markers
+    description: >
+      Accumulation of modified bases, carbonylated proteins, or cross-links signaling oxidative wear.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal modifications reflecting effective repair and prevention."
+        medium: "Moderate markers indicating balanced damage and restoration."
+        high: "High accumulation pointing to overwhelmed defense systems."
+
+  - name: Mitochondrial Electron Leak Frequency
+    description: >
+      Proportion of electrons escaping the transport chain to form superoxide before reaching oxygen.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Tight electron flow minimizing ROS generation at source."
+        medium: "Occasional leaks requiring standard antioxidant response."
+        high: "Frequent leakage producing chronic oxidative pressure on defenses."
+
+  - name: Dietary Antioxidant Intake
+    description: >
+      External supply of vitamins, polyphenols, and carotenoids that supplement internal defense networks.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor intake forcing reliance on endogenous systems alone."
+        medium: "Moderate consumption supporting baseline oxidative buffering."
+        high: "Rich dietary supply enhancing overall radical scavenging capacity."
+
+  - name: Cellular Redox Signaling Balance
+    description: >
+      Precision of ROS as signaling molecules versus destructive agents, regulated by feedback loops.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Over-suppressed redox state impairing adaptive stress responses."
+        medium: "Balanced signaling allowing controlled oxidative bursts for defense."
+        high: "Highly tuned networks converting ROS into protective gene activation signals."
+
+  - name: Repair Pathway Activation Speed
+    description: >
+      Latency and efficiency of base excision, proteasomal degradation, and membrane remodeling after damage.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow repair allowing damage to compound before correction."
+        medium: "Standard response time maintaining cellular homeostasis."
+        high: "Rapid activation swiftly restoring structure and function post-oxidation."

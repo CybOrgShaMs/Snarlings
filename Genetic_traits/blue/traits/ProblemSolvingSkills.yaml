@@ -1,0 +1,60 @@
+trait: Problem-solving Skills
+description: >
+  Problem-solving skills involve the ability to identify, analyze, and solve complex problems. These skills enable organisms to overcome challenges, innovate, and adapt to new environments.
+
+factors:
+  - name: Cognitive Flexibility
+    description: >
+      Cognitive flexibility refers to the ability to switch between different tasks, perspectives, or problem-solving strategies. It enhances an organism's capacity to adapt to changing situations and find novel solutions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Analytical Ability
+    description: >
+      Analytical ability involves breaking down complex problems into manageable components and evaluating potential solutions. Strong analytical skills contribute to effective problem-solving.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Creativity
+    description: >
+      Creativity involves generating innovative and original ideas. Creative thinking can lead to unique problem-solving approaches and solutions that may not be immediately apparent.
+    scale:
+      min: 0
+      max: 100
+      
+  - name: Experience and Learning
+    description: >
+      Experience and learning from past problem-solving attempts can enhance an organism's ability to tackle future challenges. Memory and knowledge accumulation are key factors in improving problem-solving skills.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Environmental Context
+    description: >
+      The complexity and nature of the environment in which an organism operates can influence problem-solving skills. Diverse and challenging environments may foster the development of advanced problem-solving abilities.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Decision-making Ability
+    description: >
+      Effective problem-solving requires strong decision-making skills, including the ability to weigh options, predict outcomes, and choose optimal solutions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Persistence and Resilience
+    description: >
+      Persistence and resilience in the face of challenges are crucial for successful problem-solving. These traits enable organisms to continue working toward solutions despite difficulties and setbacks.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Social Collaboration
+    description: >
+      Collaborative problem-solving, where individuals work together to solve problems, can leverage diverse perspectives and skills. Social collaboration enhances problem-solving effectiveness and innovation.
+    scale:
+      min: 0
+      max: 100

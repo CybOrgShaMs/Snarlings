@@ -1,0 +1,60 @@
+trait: Spatial Awareness
+description: >
+  Spatial awareness is the ability to understand and interact with the physical space around oneself. It involves perceiving spatial relationships, distances, and the dimensions of objects and environments.
+
+factors:
+  - name: Visual Perception
+    description: >
+      Visual perception skills, including depth perception and recognizing spatial relationships, are fundamental to spatial awareness. They enable accurate interpretation of the surrounding environment.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Kinesthetic Sense
+    description: >
+      The kinesthetic sense, or body awareness, involves understanding the position and movement of the body in space. It is crucial for navigating and interacting with the environment.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Navigation Skills
+    description: >
+      Navigation skills involve the ability to orient oneself and move effectively through space. These skills are essential for tasks that require spatial planning and movement.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Environmental Interaction
+    description: >
+      Regular interaction with diverse environments can enhance spatial awareness. Activities such as sports, driving, and exploring new places help develop spatial skills.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Memory and Recall
+    description: >
+      The ability to remember and recall spatial information, such as the layout of an environment or the location of objects, supports spatial awareness.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Cognitive Mapping
+    description: >
+      Cognitive mapping involves creating mental representations of physical spaces. It enables individuals to navigate and understand complex environments.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Attention to Detail
+    description: >
+      Attention to detail allows for the precise perception of spatial relationships and the accurate interpretation of spatial information.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Genetic Factors
+    description: >
+      Genetic predispositions can influence spatial awareness, including traits like visual acuity and neural efficiency. Inherited traits contribute to individual differences in spatial abilities.
+    scale:
+      min: 0
+      max: 100

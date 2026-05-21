@@ -1,0 +1,60 @@
+trait: Temperature Tolerance
+description: >
+  Temperature tolerance refers to an organism's ability to survive and function across a range of temperatures. This trait is essential for thriving in environments with extreme or fluctuating temperatures.
+
+factors:
+  - name: Heat Shock Proteins
+    description: >
+      The production of heat shock proteins that protect cellular structures during temperature extremes enhances temperature tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Enzyme Stability
+    description: >
+      Enzymes that remain functional across a range of temperatures support metabolic processes in varying thermal conditions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Insulation
+    description: >
+      Physical adaptations such as fur, feathers, or fat layers that provide insulation help regulate body temperature.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Behavioral Thermoregulation
+    description: >
+      Behaviors such as basking in the sun, seeking shade, or burrowing help organisms maintain optimal body temperatures.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Antifreeze Proteins
+    description: >
+      The production of antifreeze proteins that prevent ice crystal formation in tissues supports survival in cold environments.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Acclimatization
+    description: >
+      The ability to acclimate to gradual temperature changes through physiological adjustments enhances temperature tolerance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Cellular Membrane Fluidity
+    description: >
+      Membrane compositions that remain fluid across temperature ranges support cellular function during thermal stress.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Metabolic Rate Adjustments
+    description: >
+      The ability to adjust metabolic rates to conserve energy during extreme temperatures supports temperature tolerance.
+    scale:
+      min: 0
+      max: 100

@@ -1,0 +1,67 @@
+trait: Evolutionary Rescue
+
+description: >
+  Evolutionary rescue refers to the process by which populations avoid extinction
+  by rapidly adapting to environmental change. It depends on the speed and availability
+  of beneficial genetic variation and the strength of selection under stress conditions.
+
+factors:
+  - name: Standing Genetic Variation
+    description: >
+      Existing genetic diversity within a population that can be acted upon by
+      natural selection when environmental conditions change.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Very limited pre-existing variation, reducing adaptive options."
+        medium: "Moderate genetic diversity enabling some adaptive response."
+        high: "Rich genetic variation allowing rapid selection of beneficial traits."
+
+  - name: Adaptive Mutations
+    description: >
+      New mutations that provide a fitness advantage under current environmental
+      stress, contributing directly to survival and population recovery.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rare beneficial mutations, slow adaptive response."
+        medium: "Occasional adaptive mutations supporting gradual rescue."
+        high: "Frequent beneficial mutations enabling rapid adaptation."
+
+  - name: Evolutionary Potential
+    description: >
+      The overall capacity of a population to generate heritable adaptive change,
+      influenced by genetic diversity, mutation rate, and recombination processes.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited capacity for evolutionary change under stress."
+        medium: "Moderate ability to adapt over time."
+        high: "Strong adaptive capacity enabling rapid evolutionary shifts."
+
+  - name: Rescue Mechanisms
+    description: >
+      Non-genetic or semi-genetic strategies that improve survival under stress,
+      including phenotypic plasticity, behavioral shifts, and ecological buffering.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Few buffering strategies against environmental stress."
+        medium: "Some compensatory mechanisms aiding survival."
+        high: "Strong flexible responses increasing survival until genetic adaptation occurs."
+
+  - name: Population Size and Structure
+    description: >
+      Demographic characteristics that influence genetic drift, mutation supply,
+      and the probability that beneficial alleles arise and spread.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Small or fragmented populations with high extinction risk."
+        medium: "Moderate population size with some adaptive capacity."
+        high: "Large, well-connected populations supporting strong adaptive potential."

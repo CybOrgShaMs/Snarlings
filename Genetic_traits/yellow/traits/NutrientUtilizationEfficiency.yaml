@@ -1,0 +1,93 @@
+trait: Nutrient utilization efficiency
+description: >
+  The physiological capacity to extract, absorb, and metabolize essential nutrients from ingested or environmental sources
+  with minimal loss to waste or incomplete breakdown.
+
+factors:
+  - name: Gut Microbiome Composition
+    description: >
+      Diversity and functional capacity of symbiotic microbes that ferment indigestible compounds into absorbable metabolites.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited microbial diversity reducing breakdown of complex substrates."
+        medium: "Balanced microbiota supporting standard nutrient extraction rates."
+        high: "Highly specialized microbial community maximizing fermentation and synthesis."
+
+  - name: Enzymatic Activity Levels
+    description: >
+      Concentration and catalytic efficiency of digestive and intracellular enzymes that cleave macromolecules.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Reduced enzyme production leading to incomplete digestion and nutrient loss."
+        medium: "Adequate enzymatic output supporting normal metabolic processing."
+        high: "Elevated enzyme concentrations enabling rapid and thorough substrate breakdown."
+
+  - name: Transporter Protein Density
+    description: >
+      Number and affinity of membrane carriers that move digested molecules across intestinal epithelium into circulation.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Sparse transporters causing bottleneck absorption and systemic deficiency."
+        medium: "Standard transporter expression matching typical dietary intake."
+        high: "Dense carrier networks facilitating near-complete nutrient uptake."
+
+  - name: Dietary Macronutrient Balance
+    description: >
+      Proportional mix of proteins, fats, and carbohydrates that affects synergistic digestion and absorption kinetics.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Imbalanced intake causing digestive interference or malabsorption."
+        medium: "Well-proportioned diet supporting optimal enzymatic and absorptive function."
+        high: "Harmonized macronutrient ratios enhancing mutual digestion efficiency."
+
+  - name: Absorption Surface Area
+    description: >
+      Total mucosal area available for nutrient exchange, influenced by villi height, microvilli density, and intestinal length.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Reduced surface area limiting contact time and uptake capacity."
+        medium: "Standard mucosal architecture supporting baseline absorption rates."
+        high: "Extensive folded surfaces maximizing diffusion gradients and transport volume."
+
+  - name: Metabolic Pathway Optimization
+    description: >
+      Efficiency of intracellular routes that convert absorbed nutrients into usable forms without intermediate loss.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Suboptimal routing causing metabolic bottlenecks and byproduct accumulation."
+        medium: "Functional pathways maintaining steady conversion rates."
+        high: "Highly streamlined networks minimizing energy loss during nutrient processing."
+
+  - name: Nutrient Bioavailability & Antagonists
+    description: >
+      Chemical form of nutrients and presence of inhibitors (e.g., phytates, tannins) that affect absorption readiness.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "High antagonist load or poor chemical forms reducing usable nutrient fraction."
+        medium: "Moderate bioavailability with manageable inhibitory effects."
+        high: "Optimal nutrient forms and low antagonists enabling near-complete uptake."
+
+  - name: Competitive Exclusion by Symbionts
+    description: >
+      Microbial or cellular competition for shared transporters and binding sites that can limit host absorption.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal competition allowing unrestricted nutrient access."
+        medium: "Balanced symbiotic presence with manageable uptake interference."
+        high: "Intense microbial competition diverting nutrients away from host pathways."

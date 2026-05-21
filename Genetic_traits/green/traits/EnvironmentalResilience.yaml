@@ -1,0 +1,60 @@
+trait: Environmental Resilience
+description: >
+  Environmental resilience refers to an organism's ability to withstand and recover from environmental stresses and disturbances. This trait is crucial for survival in changing and challenging habitats.
+
+factors:
+  - name: Genetic Diversity
+    description: >
+      Higher genetic diversity within a population enhances environmental resilience by providing a wider range of traits that can respond to environmental changes.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Physiological Flexibility
+    description: >
+      The ability to alter physiological processes, such as metabolism and growth rates, helps organisms cope with environmental stresses.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Behavioral Adaptability
+    description: >
+      The capacity to change behavior in response to environmental conditions, such as altering foraging patterns or habitat use, supports resilience.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Reproductive Strategies
+    description: >
+      Diverse and flexible reproductive strategies, such as varying breeding times or offspring numbers, enhance environmental resilience.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Microbiome Associations
+    description: >
+      Symbiotic relationships with beneficial microbes can improve an organism's resilience by aiding in nutrient acquisition and stress resistance.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Stress Response Mechanisms
+    description: >
+      Effective stress response mechanisms, including the production of stress proteins and antioxidants, help organisms withstand environmental challenges.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Habitat Flexibility
+    description: >
+      The ability to utilize a range of habitats and resources increases resilience by reducing dependence on any single environmental condition.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Ecological Interactions
+    description: >
+      Positive interactions with other species, such as mutualistic relationships, can enhance environmental resilience by providing additional resources and support.
+    scale:
+      min: 0
+      max: 100

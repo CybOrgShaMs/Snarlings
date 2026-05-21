@@ -1,0 +1,92 @@
+trait: Digestive efficiency
+description: >
+  The effectiveness of the gastrointestinal tract in breaking down food and extracting nutrients for systemic use.
+
+factors:
+  - name: Gastric Acid Secretion Levels
+    description: >
+      Concentration of hydrochloric acid that denatures proteins and activates digestive enzymes.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Insufficient acidity causing poor protein breakdown and bacterial overgrowth."
+        medium: "Standard pH supporting routine enzymatic activation and sterilization."
+        high: "Optimal acid levels ensuring thorough macromolecule denaturation."
+
+  - name: Pancreatic Enzyme Output
+    description: >
+      Volume of amylase, lipase, and proteases released to complete chemical digestion.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Reduced secretion leaving nutrients partially undigested."
+        medium: "Moderate output supporting standard macronutrient breakdown."
+        high: "High enzyme delivery enabling rapid and complete substrate cleavage."
+
+  - name: Intestinal Transit Time
+    description: >
+      Duration food spends in the gut, affecting contact time with enzymes and absorptive surfaces.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rapid passage limiting nutrient extraction and absorption."
+        medium: "Standard timing balancing thorough digestion with waste elimination."
+        high: "Slower transit maximizing enzymatic action and mucosal contact time."
+
+  - name: Bile Salt Production
+    description: >
+      Synthesis of emulsifiers that break fat globules into absorbable micelles.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor emulsification causing lipid malabsorption and steatorrhea."
+        medium: "Adequate bile supporting moderate fat digestion needs."
+        high: "High salt concentration ensuring complete lipid breakdown and uptake."
+
+  - name: Microbial Fermentation Capacity
+    description: >
+      Ability of gut flora to break down complex carbohydrates into short-chain fatty acids.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited fermentation reducing caloric yield from fiber."
+        medium: "Moderate activity supporting standard polysaccharide processing."
+        high: "High fermentative output maximizing energy extraction and gut health."
+
+  - name: Mucosal Integrity
+    description: >
+     Structural health of the intestinal lining preventing leakage and maintaining barrier function.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Compromised barrier causing inflammation and nutrient loss."
+        medium: "Healthy mucosa supporting selective absorption and protection."
+        high: "Robust lining ensuring optimal uptake while blocking pathogens."
+
+  - name: Peristaltic Coordination
+    description: >
+     Rhythmic muscle contractions that mix chyme with enzymes and propel it forward.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Uncoordinated waves causing stagnation or rapid dumping."
+        medium: "Standard motility supporting balanced digestion progression."
+        high: "Highly synchronized contractions optimizing mixing and transit efficiency."
+
+  - name: pH Gradient Maintenance Across Compartments
+    description: >
+     Stability of acidic stomach to alkaline intestine environments for sequential enzyme activation.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Fluctuating pH causing premature or delayed enzyme activity."
+        medium: "Stable gradients supporting proper digestive sequencing."
+        high: "Precise compartmentalization ensuring optimal conditions for each stage."

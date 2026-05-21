@@ -1,0 +1,104 @@
+trait: Mutation Rate 
+
+description: >
+  Mutation rate refers to the frequency at which genetic mutations occur in an organism’s genome.
+  It determines the level of new genetic variation introduced into a population and plays a central
+  role in shaping evolutionary dynamics over time.
+
+factors:
+  - name: Environmental Factors
+    description: >
+      External conditions such as radiation, temperature fluctuations, and chemical exposure
+      that can increase genomic instability and elevate mutation frequency.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Stable environment with minimal mutagenic stress."
+        medium: "Moderate environmental stress with occasional mutagenic influence."
+        high: "Highly stressful environment strongly increasing mutation frequency."
+
+  - name: Replication Errors
+    description: >
+      Mistakes introduced during DNA replication due to imperfect polymerase activity
+      or insufficient proofreading and repair during cell division.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Highly accurate DNA replication with strong error correction."
+        medium: "Occasional replication errors balanced by repair mechanisms."
+        high: "Frequent replication errors with limited correction capacity."
+
+  - name: UV Radiation
+    description: >
+      Exposure to ultraviolet light that can damage DNA, including formation of pyrimidine dimers
+      and other photochemical lesions that increase mutation probability.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal UV exposure or strong protective mechanisms."
+        medium: "Moderate UV exposure with manageable DNA damage."
+        high: "High UV exposure causing significant DNA damage accumulation."
+
+  - name: Chemical Mutagens
+    description: >
+      Exposure to chemical agents (e.g., carcinogens, pollutants, tobacco smoke) that
+      alter DNA structure, base pairing, or induce strand breaks.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Low exposure to mutagenic chemicals."
+        medium: "Intermittent exposure with partial biological impact."
+        high: "High exposure leading to frequent DNA damage events."
+
+  - name: Endogenous Processes
+    description: >
+      Internal cellular processes such as oxidative stress and metabolic byproducts
+      that generate reactive oxygen species contributing to DNA damage.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Efficient metabolism with minimal internal DNA damage."
+        medium: "Normal metabolic activity with manageable oxidative stress."
+        high: "Elevated internal oxidative stress increasing DNA damage risk."
+
+  - name: DNA Repair Mechanisms
+    description: >
+      The efficiency of cellular systems that detect and correct DNA damage,
+      including mismatch repair, base excision repair, and nucleotide excision repair.
+      (Higher values here typically reduce effective mutation rate.)
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak or impaired DNA repair leading to mutation accumulation."
+        medium: "Functional repair systems with occasional errors persisting."
+        high: "Highly efficient repair minimizing mutation persistence."
+
+  - name: Age
+    description: >
+      The influence of organismal aging on mutation accumulation due to long-term exposure
+      to damage and declining repair efficiency over time. ---(ToDO: Some organisms can live more then 100 years so need to fix this at some point.)---
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Young biological state with minimal accumulated damage."
+        medium: "Intermediate age with moderate mutation accumulation."
+        high: "Advanced age with significant accumulated genomic damage."
+
+  - name: Genetic Predisposition
+    description: >
+      Inherited variations affecting genome stability, particularly in DNA repair genes,
+      that influence baseline susceptibility to mutations.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Strong genetic stability and robust repair pathways."
+        medium: "Moderate genetic susceptibility to mutation."
+        high: "Inherited instability leading to elevated mutation risk."

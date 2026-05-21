@@ -1,0 +1,60 @@
+trait: Flexibility of Thought
+description: >
+  Flexibility of thought refers to the ability to adapt thinking and approach problems from different perspectives. It is essential for creativity, problem-solving, and adapting to new situations.
+
+factors:
+  - name: Cognitive Flexibility
+    description: >
+      Cognitive flexibility, the mental ability to switch between thinking about different concepts, enhances flexibility of thought and allows for adaptive problem-solving.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Openness to Experience
+    description: >
+      A willingness to consider new ideas and experiences supports flexible thinking. It involves being open-minded and receptive to change.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Creativity
+    description: >
+      Creative thinking skills, including divergent thinking and imagination, contribute to flexibility of thought by enabling the generation of novel solutions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Emotional Regulation
+    description: >
+      The ability to regulate emotions helps maintain mental flexibility and adapt thinking in response to changing circumstances.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Experience and Learning
+    description: >
+      Diverse experiences and continuous learning provide a broad knowledge base and enhance the ability to approach problems from multiple angles.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Problem-solving Skills
+    description: >
+      Effective problem-solving skills support flexible thinking by providing strategies for addressing challenges and considering alternative solutions.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Environmental Stimulation
+    description: >
+      Exposure to diverse environments and stimuli fosters flexibility of thought by encouraging the exploration of new ideas and perspectives.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Genetic Factors
+    description: >
+      Genetic predispositions can influence flexibility of thought, including traits like cognitive control and neural efficiency. Inherited traits contribute to individual differences in mental flexibility.
+    scale:
+      min: 0
+      max: 100

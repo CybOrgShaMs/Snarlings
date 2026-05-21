@@ -1,0 +1,68 @@
+trait: Hybridization
+
+description: >
+  Hybridization is the interbreeding between individuals from genetically distinct
+  populations or species. It can introduce novel genetic combinations, influence
+  adaptation, and contribute to evolutionary processes such as gene flow, introgression,
+  and sometimes speciation or hybrid breakdown.
+
+factors:
+  - name: Hybrid Viability
+    description: >
+      The ability of hybrid offspring to survive to reproductive age, determined
+      by genetic compatibility and potential hybrid vigor or incompatibilities.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Hybrids rarely survive or show severe developmental issues."
+        medium: "Hybrids survive but with reduced fitness or stability."
+        high: "Hybrids are robust and comparable or superior in viability to parents."
+
+  - name: Hybrid Fertility
+    description: >
+      The reproductive capacity of hybrid individuals, influenced by chromosomal pairing,
+      meiotic stability, and compatibility of gamete formation.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Hybrids are largely sterile or highly infertile."
+        medium: "Partial fertility with reduced reproductive success."
+        high: "Fully fertile hybrids capable of stable reproduction."
+
+  - name: Hybridization Frequency
+    description: >
+      The rate at which interbreeding occurs between distinct species or populations,
+      shaped by overlap in distribution, reproductive timing, and behavioral barriers.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rare or absent hybridization events."
+        medium: "Occasional hybridization in overlapping regions or conditions."
+        high: "Frequent hybridization with extensive genetic exchange."
+
+  - name: Hybridization Context
+    description: >
+      The ecological and environmental conditions under which hybridization occurs,
+      including habitat disturbance, population density, and environmental stressors.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Stable conditions limiting hybrid formation."
+        medium: "Mixed conditions occasionally promoting hybridization."
+        high: "Highly dynamic or disturbed environments strongly promoting hybridization."
+
+  - name: Introgression
+    description: >
+      The extent to which genetic material from hybrids is incorporated into parental
+      populations through repeated backcrossing.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal gene flow from hybrids into parent populations."
+        medium: "Moderate introgression with partial gene incorporation."
+        high: "Extensive introgression significantly reshaping genetic structure."

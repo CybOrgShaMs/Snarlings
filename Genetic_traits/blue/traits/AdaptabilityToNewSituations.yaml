@@ -1,0 +1,104 @@
+trait: Adaptability to New Situations
+
+description: >
+  Adaptability to new situations is the ability to effectively adjust to
+  unfamiliar environments, unexpected changes, and emerging challenges.
+  It involves cognitive, emotional, behavioral, and social capacities that
+  support resilience, flexibility, and successful functioning under dynamic conditions.
+
+factors:
+  - name: Cognitive Flexibility
+    description: >
+      The capacity to shift perspectives, revise strategies, and integrate
+      new information when circumstances change.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rigid thinking with difficulty adapting to change."
+        medium: "Moderate ability to adjust strategies and perspectives."
+        high: "Highly flexible thinking enabling rapid adaptation."
+
+  - name: Emotional Regulation
+    description: >
+      The ability to manage emotional responses effectively during uncertainty,
+      stress, or change while maintaining focus and stability.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Strong emotional disruption during change."
+        medium: "Moderate emotional control under stress."
+        high: "Excellent emotional stability and resilience."
+
+  - name: Problem-solving Skills
+    description: >
+      The ability to identify challenges, evaluate alternatives,
+      and implement effective solutions in unfamiliar situations.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Difficulty resolving new or complex problems."
+        medium: "Adequate problem-solving in changing conditions."
+        high: "Strong analytical and adaptive solution-generation ability."
+
+  - name: Openness to Experience
+    description: >
+      A willingness to explore unfamiliar ideas, experiences, and perspectives,
+      supporting curiosity and receptiveness to change.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Resistance to novelty and unfamiliar experiences."
+        medium: "Selective openness to change and experimentation."
+        high: "Strong curiosity and enthusiasm for new experiences."
+
+  - name: Social Support
+    description: >
+      Access to supportive relationships and social networks that provide
+      emotional encouragement, resources, and collaborative assistance during transitions.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited support and social resources."
+        medium: "Moderate support aiding adjustment."
+        high: "Strong support networks enhancing adaptability."
+
+  - name: Stress Management
+    description: >
+      The ability to cope effectively with pressure and uncertainty through
+      behavioral, cognitive, or physiological regulation strategies.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor stress coping reducing adaptive performance."
+        medium: "Moderate stress tolerance with occasional difficulty."
+        high: "Strong resilience and effective stress coping mechanisms."
+
+  - name: Continuous Learning
+    description: >
+      Ongoing acquisition of knowledge and skills that improves readiness
+      for unfamiliar challenges and changing environments.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited engagement in learning and development."
+        medium: "Periodic learning supporting moderate adaptability."
+        high: "Strong commitment to lifelong learning and growth."
+
+  - name: Genetic Factors
+    description: >
+      Inherited biological traits that influence adaptability-related characteristics
+      such as resilience, cognitive flexibility, and stress responsiveness.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited inherited predisposition for adaptive flexibility."
+        medium: "Moderate genetic contribution to adaptability."
+        high: "Strong inherited resilience and adaptive capacity."

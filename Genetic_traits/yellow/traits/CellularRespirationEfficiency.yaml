@@ -1,0 +1,92 @@
+trait: Cellular respiration efficiency
+description: >
+  The effectiveness of aerobic metabolic pathways in converting substrates into usable energy while minimizing byproduct accumulation and oxygen debt.
+
+factors:
+  - name: Oxygen Diffusion Rates
+    description: >
+      Speed at which O2 moves from capillaries to mitochondria across tissue gradients.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor diffusion creating hypoxic microenvironments and respiratory bottlenecks."
+        medium: "Adequate gradient support matching typical metabolic demand."
+        high: "Rapid O2 delivery sustaining maximal oxidative throughput without limitation."
+
+  - name: Cytochrome Complex Functionality
+    description: >
+      Catalytic performance of complexes I-IV in transferring electrons and pumping protons.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Degraded complexes causing electron backup and reduced proton motive force."
+        medium: "Functional complexes supporting steady respiratory chain progression."
+        high: "Highly optimized complexes enabling rapid, coordinated electron flow."
+
+  - name: Proton Gradient Maintenance
+    description: >
+      Stability of the electrochemical potential across the inner mitochondrial membrane.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Frequent gradient collapse forcing inefficient substrate cycling."
+        medium: "Moderate stability allowing consistent ATP synthesis rates."
+        high: "Tight gradient control maximizing energy capture per electron transferred."
+
+  - name: Carbon Dioxide Elimination Rate
+    description: >
+      Speed of removing metabolic CO2 to prevent acidification and pathway inhibition.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow clearance causing intracellular pH drop and respiratory slowdown."
+        medium: "Standard elimination maintaining balanced acid-base homeostasis."
+        high: "Rapid CO2 export preventing feedback inhibition during high output."
+
+  - name: Metabolic Intermediate Recycling
+    description: >
+      Efficiency of regenerating Krebs cycle intermediates (anaplerosis) to prevent pathway stalling.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor recycling causing intermediate depletion and respiratory pauses."
+        medium: "Adequate replenishment supporting continuous cycle operation."
+        high: "Highly efficient anaplerotic flux maintaining uninterrupted respiration."
+
+  - name: Tissue Perfusion Quality
+    description: >
+      Uniformity and adequacy of blood flow delivering substrates and removing waste from respiring cells.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Patchy perfusion creating localized hypoxia and inefficient zones."
+        medium: "Consistent flow supporting balanced tissue-level respiration."
+        high: "Optimal microcirculation ensuring uniform substrate delivery and waste removal."
+
+  - name: Respiratory Quotient Optimization
+    description: >
+      Alignment of CO2 produced to O2 consumed ratio with actual fuel oxidation state.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Mismatched RQ indicating inefficient substrate selection or pathway crossover."
+        medium: "Balanced quotient reflecting appropriate metabolic fuel usage."
+        high: "Precise RQ alignment maximizing energy yield per oxygen molecule used."
+
+  - name: Anaerobic Threshold Alignment
+    description: >
+      Point at which respiration shifts from aerobic to anaerobic, affecting overall efficiency during exertion.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Early threshold forcing rapid reliance on inefficient glycolysis."
+        medium: "Moderate threshold allowing prolonged oxidative dominance."
+        high: "High threshold enabling sustained aerobic respiration under heavy load."

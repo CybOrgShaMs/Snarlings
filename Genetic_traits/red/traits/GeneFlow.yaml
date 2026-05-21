@@ -1,0 +1,67 @@
+trait: Gene Flow
+
+description: >
+  Gene flow is the transfer of genetic material between populations through migration and interbreeding.
+  It can homogenize genetic variation across populations, reduce genetic differentiation, and introduce
+  new alleles that may enhance or constrain local adaptation depending on environmental context.
+
+factors:
+  - name: Migration Patterns
+    description: >
+      The direction, frequency, and magnitude of movement of individuals between populations,
+      determining how often genetic material is exchanged.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rare or highly restricted migration between populations."
+        medium: "Occasional migration enabling limited genetic exchange."
+        high: "Frequent and widespread migration producing strong genetic mixing."
+
+  - name: Population Connectivity
+    description: >
+      The degree to which populations are linked through dispersal and reproductive exchange,
+      influenced by habitat continuity and species mobility.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Highly fragmented populations with minimal genetic exchange."
+        medium: "Moderately connected populations with partial gene flow."
+        high: "Well-connected populations with extensive genetic exchange."
+
+  - name: Isolation by Distance
+    description: >
+      The reduction of gene flow as geographic distance increases between populations,
+      leading to gradual genetic differentiation across space.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak distance effect; gene flow remains strong across space."
+        medium: "Moderate spatial restriction on gene flow."
+        high: "Strong spatial structuring with limited long-distance gene flow."
+
+  - name: Barrier Effects
+    description: >
+      The impact of physical or ecological barriers such as mountains, rivers,
+      oceans, or habitat fragmentation that limit or prevent genetic exchange.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Few or permeable barriers allowing easy gene flow."
+        medium: "Partial barriers reducing but not eliminating exchange."
+        high: "Strong barriers severely restricting gene flow."
+
+  - name: Hybridization
+    description: >
+      The extent to which interbreeding between divergent populations or species
+      introduces novel genetic variation and influences gene flow dynamics.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rare or absent hybridization events."
+        medium: "Occasional hybridization contributing some gene exchange."
+        high: "Frequent hybridization significantly shaping genetic structure."

@@ -1,0 +1,60 @@
+trait: Intelligence
+description: >
+  Intelligence encompasses various cognitive abilities, including problem-solving, learning, reasoning, and understanding. It influences the organism's capacity to process information, adapt to new situations, and make informed decisions.
+
+factors:
+  - name: Neural Complexity
+    description: >
+      The complexity of the neural network, including the number of neurons, synapses, and connectivity, can influence intelligence. Higher neural complexity is often associated with enhanced cognitive abilities.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Brain Size
+    description: >
+      Brain size relative to body size, known as encephalization, can impact intelligence. Larger brains often support greater cognitive capacity and processing power.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Neurotransmitter Function
+    description: >
+      The efficiency and balance of neurotransmitter systems, such as dopamine, serotonin, and acetylcholine, play a critical role in regulating cognitive processes and intelligence.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Genetic Factors
+    description: >
+      Genetic variation and specific gene expressions related to brain development and function can influence intelligence. Heritable traits can contribute to individual differences in cognitive abilities.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Environmental Influences
+    description: >
+      Environmental factors such as nutrition, education, social interactions, and exposure to stimulating environments can shape cognitive development and intelligence throughout an organism's life.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Synaptic Plasticity
+    description: >
+      Synaptic plasticity refers to the ability of synapses to strengthen or weaken over time, in response to increases or decreases in their activity. This adaptability is crucial for learning and memory, thereby influencing intelligence.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Working Memory Capacity
+    description: >
+      Working memory capacity is the ability to hold and manipulate information over short periods. It is essential for complex cognitive tasks and is closely linked to measures of intelligence.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Cognitive Speed
+    description: >
+      Cognitive speed, or the rate at which an organism can process information, solve problems, and make decisions, is a significant factor in intelligence. Faster cognitive processes often correlate with higher intelligence.
+    scale:
+      min: 0
+      max: 100

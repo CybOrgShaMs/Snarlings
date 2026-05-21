@@ -1,0 +1,93 @@
+trait: Metabolic rate
+description: >
+  The speed at which an organism converts nutrients into usable energy and maintains baseline physiological functions,
+  reflecting the overall intensity of cellular turnover and systemic energy expenditure.
+
+factors:
+  - name: Basal Metabolic Demand
+    description: >
+      The minimum energy required to sustain vital organ function, ion pumping, and protein synthesis at rest.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Energy-conserving physiology with minimal resting expenditure."
+        medium: "Standard metabolic baseline aligned with typical physiological demands."
+        high: "Elevated resting energy consumption driven by organ size or tissue turnover."
+
+  - name: Hormonal Regulation
+    description: >
+      Endocrine signaling (e.g., thyroid hormones, catecholamines) that modulates cellular respiration and heat production.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Conservative hormonal output favoring energy preservation."
+        medium: "Balanced endocrine signaling supporting adaptive metabolic shifts."
+        high: "Hyperactive hormonal drive accelerating cellular metabolism and heat generation."
+
+  - name: Body Composition & Mass
+    description: >
+      The ratio of metabolically active tissue (muscle, organs) to inert mass (fat, bone), influencing total energy demand.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Higher proportion of inert tissue reducing overall metabolic load."
+        medium: "Mixed composition supporting moderate baseline energy requirements."
+        high: "Dense metabolically active tissue driving elevated systemic demand."
+
+  - name: Environmental Temperature
+    description: >
+      External thermal conditions that force compensatory heat production or dissipation, altering metabolic throughput.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Thermoneutral environment minimizing thermogenic expenditure."
+        medium: "Moderate thermal stress requiring adaptive metabolic adjustments."
+        high: "Extreme temperatures forcing high energy output for temperature maintenance."
+
+  - name: Activity Level & Locomotion
+    description: >
+      Frequency and intensity of physical movement, muscle contraction, and behavioral exertion.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Sedentary lifestyle with minimal supplemental energy expenditure."
+        medium: "Regular activity patterns requiring consistent metabolic support."
+        high: "Highly active physiology demanding rapid ATP turnover and recovery."
+
+  - name: Genetic Regulatory Networks
+    description: >
+      Inherited expression profiles of metabolic enzymes, transporters, and signaling pathways that set baseline rates.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Conservative genetic programming favoring energy conservation."
+        medium: "Balanced regulatory networks supporting flexible metabolic responses."
+        high: "Hyperactive genetic drivers promoting rapid nutrient processing and turnover."
+
+  - name: Age & Developmental Stage
+    description: >
+      Life phase influences on cellular proliferation, tissue maintenance, and hormonal shifts that alter energy needs.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Mature or senescent state with reduced proliferative demand."
+        medium: "Stable adult physiology with balanced maintenance requirements."
+        high: "Growth or reproductive phase requiring elevated anabolic and catabolic rates."
+
+  - name: Nutrient Availability & Timing
+    description: >
+      Frequency, quantity, and macronutrient composition of intake that directly fuels metabolic pathways.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited or irregular supply forcing metabolic downregulation."
+        medium: "Consistent availability supporting steady metabolic throughput."
+        high: "Abundant intake driving accelerated processing and storage cycles."

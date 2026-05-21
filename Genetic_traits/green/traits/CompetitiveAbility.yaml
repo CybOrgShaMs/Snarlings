@@ -1,0 +1,60 @@
+trait: Competitive Ability
+description: >
+  Competitive ability refers to an organism's capacity to outcompete others for resources such as food, territory, mates, or sunlight. This trait plays a crucial role in survival and reproductive success.
+
+factors:
+  - name: Resource Acquisition Efficiency
+    description: >
+      Efficient use of resources such as energy, nutrients, or water to support growth, reproduction, and survival enhances competitive ability.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Aggression and Dominance
+    description: >
+      Assertive behaviors or physical traits that establish dominance over competitors and secure access to resources enhance competitive ability.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Foraging Strategies
+    description: >
+      Adaptive strategies for locating, capturing, or utilizing resources more effectively than competitors enhance competitive ability.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Territorial Defense
+    description: >
+      Defending or monopolizing territories that contain critical resources such as nesting sites or feeding grounds enhances competitive ability.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Rapid Growth Rates
+    description: >
+      High rates of growth or development that enable individuals to outpace competitors and exploit resources more efficiently enhance competitive ability.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Social Hierarchies
+    description: >
+      Participation in social structures or hierarchies that confer access to resources based on rank or status enhances competitive ability.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Opportunistic Feeding Behaviors
+    description: >
+      Flexible feeding behaviors that allow individuals to exploit temporary resource pulses or novel food sources enhance competitive ability.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Predator Avoidance Tactics
+    description: >
+      Behaviors or adaptations that reduce the risk of predation and allow individuals to allocate more energy to competitive interactions enhance competitive ability.
+    scale:
+      min: 0
+      max: 100

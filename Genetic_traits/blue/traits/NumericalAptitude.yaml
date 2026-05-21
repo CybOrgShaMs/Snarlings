@@ -1,0 +1,60 @@
+trait: Numerical Aptitude
+description: >
+  Numerical aptitude refers to the ability to understand and work with numbers. It includes skills in arithmetic, problem-solving with numerical data, and the application of mathematical concepts.
+
+factors:
+  - name: Mathematical Understanding
+    description: >
+      A solid understanding of mathematical concepts and principles is essential for numerical aptitude. This foundation allows for effective problem-solving and calculation.
+    scale:
+      min: 0
+      max: 100
+      
+  - name: Calculation Skills
+    description: >
+      Proficiency in performing arithmetic operations quickly and accurately is a key component of numerical aptitude. It involves both mental math and written calculations.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Pattern Recognition
+    description: >
+      The ability to recognize and analyze patterns in numerical data is crucial for solving mathematical problems and identifying trends.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Logical Thinking
+    description: >
+      Logical thinking supports numerical aptitude by enabling the systematic approach to problem-solving and the application of mathematical principles.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Spatial Reasoning
+    description: >
+      Spatial reasoning skills aid in understanding and visualizing numerical concepts, such as geometry and spatial relationships.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Memory and Recall
+    description: >
+      The ability to remember and recall mathematical formulas, rules, and facts supports effective problem-solving and calculation.
+    scale:
+      min: 0
+      max: 100
+      
+  - name: Educational Background
+    description: >
+      A strong educational background in mathematics provides the knowledge and skills necessary for numerical aptitude. Formal education and training enhance mathematical abilities.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Genetic Factors
+    description: >
+      Genetic predispositions can influence numerical aptitude, including traits like logical reasoning and cognitive processing speed. Inherited traits contribute to individual differences in mathematical abilities.
+    scale:
+      min: 0
+      max: 100

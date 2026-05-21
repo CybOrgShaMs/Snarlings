@@ -1,0 +1,104 @@
+trait: Cognitive Resilience
+
+description: >
+  Cognitive resilience refers to the ability to recover from cognitive setbacks,
+  maintain mental performance under stress, and continue learning and adapting
+  in the face of adversity. It is essential for stable cognitive functioning
+  under pressure and long-term mental adaptability.
+
+factors:
+  - name: Stress Management
+    description: >
+      The ability to regulate and reduce the cognitive impact of stress through
+      behavioral, emotional, or physiological coping strategies.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor stress coping leading to cognitive disruption."
+        medium: "Moderate coping with occasional performance decline."
+        high: "Strong stress control preserving cognitive performance."
+
+  - name: Emotional Regulation
+    description: >
+      The capacity to manage emotional responses in challenging situations,
+      maintaining clarity of thought and decision-making stability.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Strong emotional disruption under pressure."
+        medium: "Moderate emotional control with some fluctuation."
+        high: "Stable emotional control supporting clear cognition."
+
+  - name: Problem-solving Skills
+    description: >
+      The ability to effectively analyze and resolve cognitive challenges,
+      enabling recovery from setbacks and continued adaptive reasoning.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Difficulty recovering from cognitive challenges."
+        medium: "Moderate problem-solving under stress."
+        high: "Strong adaptive reasoning and recovery capability."
+
+  - name: Social Support
+    description: >
+      The availability of supportive relationships that provide emotional,
+      informational, and practical assistance during cognitive stress.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited support networks."
+        medium: "Moderate support availability."
+        high: "Strong and reliable support systems."
+
+  - name: Physical Health
+    description: >
+      Overall physiological condition, including fitness, sleep quality, and
+      nutrition, which directly impacts cognitive performance and recovery.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor physical condition impairing cognitive stability."
+        medium: "Moderate health with occasional cognitive strain."
+        high: "Strong physical condition supporting cognitive endurance."
+
+  - name: Mindfulness and Meditation
+    description: >
+      Practices that enhance awareness, reduce stress reactivity, and improve
+      attentional control and cognitive stability under pressure.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "No mindfulness practice or training."
+        medium: "Occasional practice with moderate benefits."
+        high: "Strong mindfulness training supporting resilience."
+
+  - name: Continuous Learning
+    description: >
+      Ongoing engagement in mentally challenging activities that strengthen
+      neural adaptability and cognitive recovery mechanisms.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited cognitive stimulation."
+        medium: "Moderate engagement in learning activities."
+        high: "High continuous cognitive engagement and growth."
+
+  - name: Genetic Factors
+    description: >
+      Inherited neurobiological traits influencing stress tolerance, emotional
+      stability, and baseline cognitive recovery capacity.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited innate cognitive resilience."
+        medium: "Moderate genetic contribution to resilience."
+        high: "Strong inherited resilience and stability."

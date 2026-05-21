@@ -1,0 +1,60 @@
+trait: Migration Patterns
+description: >
+  Migration patterns refer to the seasonal movements of organisms from one habitat to another. These movements are often driven by changes in resource availability, environmental conditions, or reproductive needs.
+
+factors:
+  - name: Environmental Cues
+    description: >
+      Sensitivity to environmental cues such as day length, temperature changes, or food availability triggers migratory behavior.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Navigation Abilities
+    description: >
+      Innate or learned abilities to navigate over long distances using celestial cues, landmarks, or Earth's magnetic field enhance migration patterns.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Energy Reserves
+    description: >
+      Accumulation of energy reserves, such as fat stores or food reserves, provides the fuel necessary for long-distance migrations.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Physiological Adaptations
+    description: >
+      Physiological changes that optimize energy expenditure and reduce metabolic costs during migration support successful patterns.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Social Factors
+    description: >
+      Social cues such as group cohesion, collective decision-making, or following experienced individuals influence migration patterns.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Genetic Predisposition
+    description: >
+      Inherited traits that predispose individuals to migrate, such as genetic markers associated with migratory behavior, influence patterns.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Habitat Quality
+    description: >
+      Variation in habitat quality along migration routes influences the timing, duration, and destinations of migratory movements.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Climate Change Impacts
+    description: >
+      Alterations in environmental conditions due to climate change can disrupt traditional migration patterns, leading to shifts in routes or timing.
+    scale:
+      min: 0
+      max: 100

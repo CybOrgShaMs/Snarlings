@@ -1,0 +1,66 @@
+trait: Genetic Diversity
+
+description: >
+  Genetic diversity refers to the variety of genetic characteristics within a population or species.
+  It is fundamental for adaptability, evolutionary resilience, and long-term survival in changing environments.
+
+factors:
+  - name: Population Size
+    description: >
+      The influence of population size on genetic diversity through its effects on gene pool breadth,
+      mutation supply, and genetic drift. Larger populations generally maintain greater diversity.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Small populations with limited genetic variation and strong drift effects."
+        medium: "Moderate populations maintaining some genetic variation."
+        high: "Large populations with extensive and stable genetic diversity."
+
+  - name: Migration
+    description: >
+      The movement of individuals between populations that introduces new alleles
+      and increases within-population genetic variation.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal migration and limited introduction of new alleles."
+        medium: "Occasional migration contributing to moderate genetic input."
+        high: "Frequent migration significantly increasing genetic diversity."
+
+  - name: Gene Flow
+    description: >
+      The exchange of genetic material between populations through interbreeding,
+      which can either increase local diversity or homogenize populations depending on context.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Restricted gene flow and isolated gene pools."
+        medium: "Moderate gene exchange maintaining partial differentiation."
+        high: "Strong gene flow producing high genetic mixing across populations."
+
+  - name: Sexual Reproduction
+    description: >
+      The generation of genetic variation through recombination, independent assortment,
+      and the combination of parental alleles during reproduction.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited recombination and reduced genetic shuffling."
+        medium: "Moderate recombination producing some variation."
+        high: "Extensive recombination generating high offspring diversity."
+
+  - name: Selection Pressure
+    description: >
+      Environmental and biological forces that shape allele frequencies,
+      potentially reducing diversity through directional selection or maintaining it through balancing selection.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak selection with minimal impact on diversity structure."
+        medium: "Moderate selection shaping genetic variation."
+        high: "Strong selection rapidly reshaping or maintaining diversity depending on context."

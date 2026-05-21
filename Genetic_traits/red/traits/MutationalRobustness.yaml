@@ -1,0 +1,69 @@
+trait: Mutational Robustness
+
+description: >
+  Mutational robustness refers to the ability of an organism or population to
+  maintain stable phenotypes despite genetic mutations. It reflects how strongly
+  biological systems buffer against potentially deleterious genetic changes,
+  preserving function under mutational pressure.
+
+factors:
+  - name: Genetic Redundancy
+    description: >
+      The presence of multiple genes or pathways that perform overlapping or
+      compensatory functions, allowing biological systems to tolerate mutations
+      without loss of phenotype.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal redundancy; single mutations often cause functional loss."
+        medium: "Moderate redundancy providing partial buffering."
+        high: "Strong redundancy with robust compensation for genetic disruption."
+
+  - name: Robustness Mechanisms
+    description: >
+      Cellular and molecular systems such as chaperones, repair enzymes,
+      and compensatory pathways that mitigate the effects of harmful mutations.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak or inefficient buffering systems."
+        medium: "Functional but limited protective mechanisms."
+        high: "Highly efficient systems that strongly stabilize phenotype."
+
+  - name: Canalization
+    description: >
+      The degree to which developmental processes produce stable phenotypes
+      despite genetic variation or environmental disturbance.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Highly variable development sensitive to perturbations."
+        medium: "Moderately stable developmental outcomes."
+        high: "Strongly canalized development with consistent phenotypes."
+
+  - name: Epistasis
+    description: >
+      Interactions between genes where the effect of one mutation depends on
+      other genetic contexts, potentially masking deleterious impacts.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal gene interactions; effects are largely independent."
+        medium: "Some interaction effects influencing robustness."
+        high: "Strong epistatic buffering reducing mutation impact."
+
+  - name: Genetic Buffering
+    description: >
+      Network-level and modifier-gene effects that reduce phenotypic disruption
+      caused by mutations through distributed genetic compensation.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited buffering capacity in genetic networks."
+        medium: "Moderate buffering through partial network compensation."
+        high: "Strong systemic buffering stabilizing phenotype under mutation."

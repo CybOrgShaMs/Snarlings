@@ -1,0 +1,92 @@
+trait: Energy storage capacity
+description: >
+  The physiological ability to reserve excess energy in chemical forms (lipids, glycogen) for future metabolic demands or stress periods.
+
+factors:
+  - name: Adipose Tissue Volume & Distribution
+    description: >
+      Amount and strategic placement of fat depots capable of long-term triglyceride storage.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited fat reserves restricting prolonged energy availability."
+        medium: "Standard adipose mass supporting typical fasting or activity cycles."
+        high: "Extensive lipid depots enabling extended survival during scarcity."
+
+  - name: Glycogen Synthase Activity
+    description: >
+      Enzymatic rate of converting glucose into stored polysaccharide in liver and muscle.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Slow synthesis limiting rapid glycogen replenishment after exertion."
+        medium: "Moderate activity supporting routine storage and mobilization cycles."
+        high: "High enzymatic throughput enabling fast, large-volume carbohydrate reserves."
+
+  - name: Lipoprotein Transport Efficiency
+    description: >
+      Capacity of blood carriers to move lipids from absorption sites to storage depots.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor transport causing lipid accumulation in circulation or liver."
+        medium: "Standard delivery matching typical dietary fat processing."
+        high: "Highly efficient routing ensuring rapid and complete depot loading."
+
+  - name: Hormonal Storage Signals (Insulin/Glucagon)
+    description: >
+      Balance of anabolic and catabolic hormones that trigger or inhibit energy deposition.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak signaling favoring constant mobilization over storage."
+        medium: "Balanced hormonal rhythm supporting adaptive reserve management."
+        high: "Strong anabolic drive promoting rapid and sustained energy deposition."
+
+  - name: Cellular Lipid Droplet Formation
+    description: >
+      Ability of cells to encapsulate and stabilize triglycerides without lipotoxicity.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Unstable droplets causing leakage and oxidative damage."
+        medium: "Functional coating supporting moderate storage capacity."
+        high: "Robust lipid droplet architecture enabling high-volume, safe accumulation."
+
+  - name: Metabolic Flexibility
+    description: >
+      Ability to switch between burning stored fuels and conserving them based on availability.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Rigid metabolism forcing constant depletion regardless of intake."
+        medium: "Adaptive switching supporting balanced storage and usage cycles."
+        high: "Highly flexible regulation optimizing reserve buildup during surplus periods."
+
+  - name: Seasonal Feeding Patterns
+    description: >
+      Evolutionary or behavioral adaptation to accumulate reserves during predictable abundance.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Non-seasonal intake leading to inconsistent storage cycles."
+        medium: "Moderate seasonal alignment supporting periodic reserve buildup."
+        high: "Strong photoperiodic or environmental cues driving massive pre-stress accumulation."
+
+  - name: Basal Energy Expenditure Rate
+    description: >
+      Constant caloric drain that competes with storage for available energy.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Low expenditure allowing greater net surplus for deposition."
+        medium: "Standard burn rate requiring balanced intake to maintain reserves."
+        high: "High continuous drain limiting storage potential despite adequate intake."

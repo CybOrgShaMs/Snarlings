@@ -1,0 +1,67 @@
+trait: Recombination Rate
+
+description: >
+  Recombination rate refers to the frequency at which genetic material is exchanged
+  between chromosomes during meiosis. It is a key determinant of genetic diversity
+  and influences the speed and effectiveness of evolutionary adaptation.
+
+factors:
+  - name: Genetic Distance
+    description: >
+      The physical or genetic distance between loci, which influences the probability
+      that a recombination event will occur between them during meiosis.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Closely linked loci with low recombination probability."
+        medium: "Moderately spaced loci with occasional recombination."
+        high: "Distant loci with high recombination probability."
+
+  - name: Crossover Interference
+    description: >
+      The regulatory phenomenon in which one crossover event reduces the likelihood
+      of additional nearby crossovers, shaping recombination distribution along chromosomes.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak interference allowing clustered crossover events."
+        medium: "Moderate interference producing balanced crossover spacing."
+        high: "Strong interference enforcing widely spaced crossovers."
+
+  - name: Chromatin Structure
+    description: >
+      The organization and accessibility of DNA within chromatin, which influences
+      the likelihood of recombination by regulating access to recombination machinery.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Condensed chromatin limiting recombination access."
+        medium: "Mixed chromatin accessibility with moderate recombination."
+        high: "Open chromatin strongly facilitating recombination events."
+
+  - name: Recombination Hotspots
+    description: >
+      Genomic regions with elevated recombination activity driven by sequence motifs,
+      epigenetic marks, and chromatin configuration.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Few or inactive recombination hotspots."
+        medium: "Moderate hotspot distribution across genome."
+        high: "Strongly active hotspots driving frequent recombination."
+
+  - name: DNA Repair Pathways
+    description: >
+      Cellular mechanisms for repairing DNA double-strand breaks, including homologous
+      recombination and alternative repair pathways that influence recombination outcomes.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Limited repair capacity with reduced recombination efficiency."
+        medium: "Functional repair systems supporting normal recombination."
+        high: "Highly efficient repair promoting controlled recombination processes."

@@ -1,0 +1,92 @@
+trait: Absorption efficiency
+description: >
+  The physiological capability to transfer digested nutrients and molecules across biological membranes into systemic circulation.
+
+factors:
+  - name: Enterocyte Microvilli Density
+    description: >
+     Brush border projections that exponentially increase surface area for molecular uptake.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Blunted villi reducing contact zone and transport capacity."
+        medium: "Standard microvilli supporting baseline absorptive function."
+        high: "Dense, elongated projections maximizing diffusion gradients."
+
+  - name: Active Transporter Expression Levels
+    description: >
+     Number of protein pumps moving ions and nutrients against concentration gradients.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Sparse carriers causing reliance on passive diffusion only."
+        medium: "Moderate expression supporting standard solute uptake rates."
+        high: "High transporter density enabling rapid, energy-dependent absorption."
+
+  - name: Paracellular Permeability
+    description: >
+     Leakage between cells allowing small molecules to bypass carrier systems.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Tight junctions restricting non-specific passage."
+        medium: "Controlled permeability balancing selectivity with throughput."
+        high: "Looser barriers increasing passive nutrient flux but risking imbalance."
+
+  - name: Mucus Layer Thickness
+    description: >
+     Gel-like coating protecting epithelium and slowing diffusion for better uptake timing.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Thin mucus causing rapid transit and reduced contact time."
+        medium: "Standard layer supporting balanced protection and absorption."
+        high: "Thick matrix extending nutrient diffusion path for thorough extraction."
+
+  - name: Blood Flow to Absorptive Surfaces
+    description: >
+     Perfusion rate maintaining concentration gradients by removing absorbed molecules quickly.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Poor circulation causing gradient collapse and uptake slowdown."
+        medium: "Adequate flow supporting steady nutrient delivery to systemic pool."
+        high: "High perfusion maintaining steep gradients for continuous absorption."
+
+  - name: Molecular Size/Charge Compatibility
+    description: >
+     Fit of digested particles with transporter binding sites and membrane channels.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Mismatched molecules causing poor carrier recognition and uptake."
+        medium: "Standard compatibility supporting routine nutrient processing."
+        high: "Optimal molecular geometry enabling rapid, high-affinity binding."
+
+  - name: Competitive Inhibition Presence
+    description: >
+     Competition between similar nutrients for shared transport pathways.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Minimal competition allowing unrestricted uptake of target molecules."
+        medium: "Moderate rivalry causing slight delays in absorption rates."
+        high: "Intense competition diverting carriers and reducing net efficiency."
+
+  - name: Hormonal Regulation of Uptake
+    description: >
+     Signaling (e.g., insulin, GLP-1) that modulates transporter insertion and membrane fluidity.
+    scale:
+      min: 0
+      max: 100
+      interpretation:
+        low: "Weak signaling limiting adaptive increases during high demand."
+        medium: "Standard regulation supporting routine absorption adjustments."
+        high: "Strong hormonal drive rapidly upregulating uptake machinery when needed."

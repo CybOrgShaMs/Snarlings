@@ -1,0 +1,60 @@
+trait: Habitat Diversity Utilization
+description: >
+  Habitat diversity utilization refers to an organism's ability to exploit a variety of habitats and environments, increasing its chances of survival and reproduction across different ecological settings.
+
+factors:
+  - name: Behavioral Flexibility
+    description: >
+      The ability to change behavior based on the habitat, such as varying foraging techniques or nesting sites, enhances habitat utilization.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Physiological Adaptability
+    description: >
+      Flexibility in physiological processes, such as adjusting to different humidity or temperature levels, supports the use of diverse habitats.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Morphological Versatility
+    description: >
+      Physical traits that enable survival in different habitats, such as varied body sizes or limb structures, enhance habitat diversity utilization.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Reproductive Flexibility
+    description: >
+      The ability to reproduce in various environmental conditions, such as different breeding sites or seasons, supports habitat utilization.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Resource Acquisition Strategies
+    description: >
+      Efficient strategies for obtaining food, water, and shelter in different habitats increase the ability to utilize diverse environments.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Microbial Symbiosis
+    description: >
+      Relationships with beneficial microbes that aid in nutrient acquisition and stress resistance across various habitats enhance habitat utilization.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Predator Avoidance
+    description: >
+      Strategies for avoiding predators in different habitats, such as camouflage or flight, support the use of diverse environments.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Social Structure
+    description: >
+      Social behaviors that enable group living or solitary existence in different habitats enhance habitat diversity utilization.
+    scale:
+      min: 0
+      max: 100

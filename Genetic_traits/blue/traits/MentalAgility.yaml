@@ -1,0 +1,60 @@
+trait: Mental Agility
+description: >
+  Mental agility refers to the ability to think quickly, comprehend new information rapidly, and adapt to changing circumstances. It is essential for problem-solving, learning, and innovation.
+
+factors:
+  - name: Cognitive Processing Speed
+    description: >
+      The speed at which the brain processes information influences mental agility. Faster cognitive processing enables quick thinking and reaction times.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Working Memory
+    description: >
+      A strong working memory allows individuals to hold and manipulate information in their minds, supporting quick and flexible thinking.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Executive Function
+    description: >
+      Executive function skills, including planning, decision-making, and impulse control, enhance mental agility by facilitating efficient cognitive processing.
+    scale:
+      min: 0
+      max: 100
+      
+  - name: Stress Management
+    description: >
+      The ability to manage stress effectively helps maintain mental agility by reducing cognitive load and enhancing focus and clarity.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Physical Health
+    description: >
+      Good physical health, including regular exercise and proper nutrition, supports cognitive function and mental agility.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Continuous Learning
+    description: >
+      Engaging in continuous learning and mental challenges keeps the brain active and enhances mental agility by promoting neural plasticity.
+    scale:
+      min: 0
+      max: 100
+      
+  - name: Creativity
+    description: >
+      Creative thinking skills support mental agility by enabling the generation of novel solutions and approaches to problems.
+    scale:
+      min: 0
+      max: 100
+
+  - name: Genetic Factors
+    description: >
+      Genetic predispositions can influence mental agility, including traits like cognitive processing speed and neural efficiency. Inherited traits contribute to individual differences in mental agility.
+    scale:
+      min: 0
+      max: 100
